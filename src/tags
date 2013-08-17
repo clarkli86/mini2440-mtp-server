@@ -1,0 +1,945 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CodeEntry	MtpDebug.cpp	/^struct CodeEntry {$/;"	s	namespace:android	file:
+DUMP_BYTES_PER_ROW	MtpPacket.cpp	68;"	d	file:
+Int16List	MtpTypes.h	/^typedef Vector<int16_t> Int16List;$/;"	t	namespace:android
+Int32List	MtpTypes.h	/^typedef Vector<int32_t> Int32List;$/;"	t	namespace:android
+Int64List	MtpTypes.h	/^typedef Vector<int64_t> Int64List;$/;"	t	namespace:android
+Int8List	MtpTypes.h	/^typedef Vector<int8_t> Int8List;$/;"	t	namespace:android
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := -DMTP_DEVICE -DMTP_HOST$/;"	m
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES := bionic\/libc\/private$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE:= libmtp$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := libutils libcutils libusbhost libbinder$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:=                                       \\$/;"	m
+LOG_TAG	MtpDataPacket.cpp	17;"	d	file:
+LOG_TAG	MtpDevice.cpp	17;"	d	file:
+LOG_TAG	MtpDeviceInfo.cpp	17;"	d	file:
+LOG_TAG	MtpEventPacket.cpp	17;"	d	file:
+LOG_TAG	MtpObjectInfo.cpp	17;"	d	file:
+LOG_TAG	MtpPacket.cpp	17;"	d	file:
+LOG_TAG	MtpProperty.cpp	17;"	d	file:
+LOG_TAG	MtpRequestPacket.cpp	17;"	d	file:
+LOG_TAG	MtpResponsePacket.cpp	17;"	d	file:
+LOG_TAG	MtpServer.cpp	29;"	d	file:
+LOG_TAG	MtpStorage.cpp	17;"	d	file:
+LOG_TAG	MtpStorageInfo.cpp	17;"	d	file:
+LOG_TAG	MtpStringBuffer.cpp	17;"	d	file:
+LOG_TAG	MtpUtils.cpp	17;"	d	file:
+MTP_ASSOCIATION_TYPE_GENERIC_FOLDER	mtp.h	490;"	d
+MTP_ASSOCIATION_TYPE_UNDEFINED	mtp.h	489;"	d
+MTP_BUFFER_SIZE	MtpDataPacket.cpp	28;"	d	file:
+MTP_CONTAINER_CODE_OFFSET	mtp.h	35;"	d
+MTP_CONTAINER_HEADER_SIZE	mtp.h	38;"	d
+MTP_CONTAINER_LENGTH_OFFSET	mtp.h	33;"	d
+MTP_CONTAINER_PARAMETER_OFFSET	mtp.h	37;"	d
+MTP_CONTAINER_TRANSACTION_ID_OFFSET	mtp.h	36;"	d
+MTP_CONTAINER_TYPE_COMMAND	mtp.h	27;"	d
+MTP_CONTAINER_TYPE_DATA	mtp.h	28;"	d
+MTP_CONTAINER_TYPE_EVENT	mtp.h	30;"	d
+MTP_CONTAINER_TYPE_OFFSET	mtp.h	34;"	d
+MTP_CONTAINER_TYPE_RESPONSE	mtp.h	29;"	d
+MTP_CONTAINER_TYPE_UNDEFINED	mtp.h	26;"	d
+MTP_DEVICE_PROPERTY_ARTIST	mtp.h	340;"	d
+MTP_DEVICE_PROPERTY_BATTERY_LEVEL	mtp.h	311;"	d
+MTP_DEVICE_PROPERTY_BURST_INTERVAL	mtp.h	335;"	d
+MTP_DEVICE_PROPERTY_BURST_NUMBER	mtp.h	334;"	d
+MTP_DEVICE_PROPERTY_CAPTURE_DELAY	mtp.h	328;"	d
+MTP_DEVICE_PROPERTY_COMPRESSION_SETTING	mtp.h	314;"	d
+MTP_DEVICE_PROPERTY_CONTRAST	mtp.h	330;"	d
+MTP_DEVICE_PROPERTY_COPYRIGHT_INFO	mtp.h	341;"	d
+MTP_DEVICE_PROPERTY_DATETIME	mtp.h	327;"	d
+MTP_DEVICE_PROPERTY_DEVICE_FRIENDLY_NAME	mtp.h	343;"	d
+MTP_DEVICE_PROPERTY_DEVICE_ICON	mtp.h	346;"	d
+MTP_DEVICE_PROPERTY_DIGITAL_ZOOM	mtp.h	332;"	d
+MTP_DEVICE_PROPERTY_EFFECT_MODE	mtp.h	333;"	d
+MTP_DEVICE_PROPERTY_EXPOSURE_BIAS_COMPENSATION	mtp.h	326;"	d
+MTP_DEVICE_PROPERTY_EXPOSURE_INDEX	mtp.h	325;"	d
+MTP_DEVICE_PROPERTY_EXPOSURE_METERING_MODE	mtp.h	321;"	d
+MTP_DEVICE_PROPERTY_EXPOSURE_PROGRAM_MODE	mtp.h	324;"	d
+MTP_DEVICE_PROPERTY_EXPOSURE_TIME	mtp.h	323;"	d
+MTP_DEVICE_PROPERTY_FLASH_MODE	mtp.h	322;"	d
+MTP_DEVICE_PROPERTY_FOCAL_LENGTH	mtp.h	318;"	d
+MTP_DEVICE_PROPERTY_FOCUS_DISTANCE	mtp.h	319;"	d
+MTP_DEVICE_PROPERTY_FOCUS_METERING_MODE	mtp.h	338;"	d
+MTP_DEVICE_PROPERTY_FOCUS_MODE	mtp.h	320;"	d
+MTP_DEVICE_PROPERTY_FUNCTIONAL_MODE	mtp.h	312;"	d
+MTP_DEVICE_PROPERTY_F_NUMBER	mtp.h	317;"	d
+MTP_DEVICE_PROPERTY_IMAGE_SIZE	mtp.h	313;"	d
+MTP_DEVICE_PROPERTY_PERCEIVED_DEVICE_TYPE	mtp.h	351;"	d
+MTP_DEVICE_PROPERTY_PLAYBACK_CONTAINER_INDEX	mtp.h	349;"	d
+MTP_DEVICE_PROPERTY_PLAYBACK_OBJECT	mtp.h	348;"	d
+MTP_DEVICE_PROPERTY_PLAYBACK_RATE	mtp.h	347;"	d
+MTP_DEVICE_PROPERTY_RGB_GAIN	mtp.h	316;"	d
+MTP_DEVICE_PROPERTY_SESSION_INITIATOR_VERSION_INFO	mtp.h	350;"	d
+MTP_DEVICE_PROPERTY_SHARPNESS	mtp.h	331;"	d
+MTP_DEVICE_PROPERTY_STILL_CAPTURE_MODE	mtp.h	329;"	d
+MTP_DEVICE_PROPERTY_SUPPORTED_FORMATS_ORDERED	mtp.h	345;"	d
+MTP_DEVICE_PROPERTY_SYNCHRONIZATION_PARTNER	mtp.h	342;"	d
+MTP_DEVICE_PROPERTY_TIMELAPSE_INTERVAL	mtp.h	337;"	d
+MTP_DEVICE_PROPERTY_TIMELAPSE_NUMBER	mtp.h	336;"	d
+MTP_DEVICE_PROPERTY_UNDEFINED	mtp.h	310;"	d
+MTP_DEVICE_PROPERTY_UPLOAD_URL	mtp.h	339;"	d
+MTP_DEVICE_PROPERTY_VOLUME	mtp.h	344;"	d
+MTP_DEVICE_PROPERTY_WHITE_BALANCE	mtp.h	315;"	d
+MTP_EVENT_CANCEL_TRANSACTION	mtp.h	454;"	d
+MTP_EVENT_CAPTURE_COMPLETE	mtp.h	466;"	d
+MTP_EVENT_DEVICE_INFO_CHANGED	mtp.h	461;"	d
+MTP_EVENT_DEVICE_PROP_CHANGED	mtp.h	459;"	d
+MTP_EVENT_DEVICE_RESET	mtp.h	464;"	d
+MTP_EVENT_OBJECT_ADDED	mtp.h	455;"	d
+MTP_EVENT_OBJECT_INFO_CHANGED	mtp.h	460;"	d
+MTP_EVENT_OBJECT_PROP_CHANGED	mtp.h	468;"	d
+MTP_EVENT_OBJECT_PROP_DESC_CHANGED	mtp.h	469;"	d
+MTP_EVENT_OBJECT_REFERENCES_CHANGED	mtp.h	470;"	d
+MTP_EVENT_OBJECT_REMOVED	mtp.h	456;"	d
+MTP_EVENT_REQUEST_OBJECT_TRANSFER	mtp.h	462;"	d
+MTP_EVENT_STORAGE_INFO_CHANGED	mtp.h	465;"	d
+MTP_EVENT_STORE_ADDED	mtp.h	457;"	d
+MTP_EVENT_STORE_FULL	mtp.h	463;"	d
+MTP_EVENT_STORE_REMOVED	mtp.h	458;"	d
+MTP_EVENT_UNDEFINED	mtp.h	453;"	d
+MTP_EVENT_UNREPORTED_STATUS	mtp.h	467;"	d
+MTP_FORMAT_3GP_CONTAINER	mtp.h	105;"	d
+MTP_FORMAT_AAC	mtp.h	98;"	d
+MTP_FORMAT_ABSTRACT_AUDIO_ALBUM	mtp.h	109;"	d
+MTP_FORMAT_ABSTRACT_AUDIO_PLAYLIST	mtp.h	115;"	d
+MTP_FORMAT_ABSTRACT_AV_PLAYLIST	mtp.h	111;"	d
+MTP_FORMAT_ABSTRACT_CHAPTERED_PRODUCTION	mtp.h	114;"	d
+MTP_FORMAT_ABSTRACT_CONTACT	mtp.h	133;"	d
+MTP_FORMAT_ABSTRACT_CONTACT_GROUP	mtp.h	112;"	d
+MTP_FORMAT_ABSTRACT_DOCUMENT	mtp.h	124;"	d
+MTP_FORMAT_ABSTRACT_IMAGE_ALBUM	mtp.h	108;"	d
+MTP_FORMAT_ABSTRACT_MEDIACAST	mtp.h	117;"	d
+MTP_FORMAT_ABSTRACT_MESSAGE_FOLDER	mtp.h	113;"	d
+MTP_FORMAT_ABSTRACT_MESSSAGE	mtp.h	131;"	d
+MTP_FORMAT_ABSTRACT_MULTIMEDIA_ALBUM	mtp.h	107;"	d
+MTP_FORMAT_ABSTRACT_VIDEO_ALBUM	mtp.h	110;"	d
+MTP_FORMAT_ABSTRACT_VIDEO_PLAYLIST	mtp.h	116;"	d
+MTP_FORMAT_AIFF	mtp.h	72;"	d
+MTP_FORMAT_ASF	mtp.h	77;"	d
+MTP_FORMAT_ASSOCIATION	mtp.h	66;"	d
+MTP_FORMAT_ASX_PLAYLIST	mtp.h	121;"	d
+MTP_FORMAT_AUDIBLE	mtp.h	99;"	d
+MTP_FORMAT_AVI	mtp.h	75;"	d
+MTP_FORMAT_BMP	mtp.h	82;"	d
+MTP_FORMAT_CD	mtp.h	86;"	d
+MTP_FORMAT_CIFF	mtp.h	83;"	d
+MTP_FORMAT_DEFINED	mtp.h	78;"	d
+MTP_FORMAT_DPOF	mtp.h	71;"	d
+MTP_FORMAT_EXECUTABLE	mtp.h	68;"	d
+MTP_FORMAT_EXIF_JPEG	mtp.h	79;"	d
+MTP_FORMAT_FLAC	mtp.h	100;"	d
+MTP_FORMAT_FLASHPIX	mtp.h	81;"	d
+MTP_FORMAT_GIF	mtp.h	84;"	d
+MTP_FORMAT_HTML	mtp.h	70;"	d
+MTP_FORMAT_JFIF	mtp.h	85;"	d
+MTP_FORMAT_JP2	mtp.h	91;"	d
+MTP_FORMAT_JPX	mtp.h	92;"	d
+MTP_FORMAT_M3U_PLAYLIST	mtp.h	119;"	d
+MTP_FORMAT_MHT_COMPILED_HTML_DOCUMENT	mtp.h	127;"	d
+MTP_FORMAT_MP2	mtp.h	104;"	d
+MTP_FORMAT_MP3	mtp.h	74;"	d
+MTP_FORMAT_MP4_CONTAINER	mtp.h	103;"	d
+MTP_FORMAT_MPEG	mtp.h	76;"	d
+MTP_FORMAT_MPL_PLAYLIST	mtp.h	120;"	d
+MTP_FORMAT_MS_EXCEL_SPREADSHEET	mtp.h	128;"	d
+MTP_FORMAT_MS_POWERPOINT_PRESENTATION	mtp.h	129;"	d
+MTP_FORMAT_MS_WORD_DOCUMENT	mtp.h	126;"	d
+MTP_FORMAT_OGG	mtp.h	97;"	d
+MTP_FORMAT_PICT	mtp.h	87;"	d
+MTP_FORMAT_PLS_PLAYLIST	mtp.h	122;"	d
+MTP_FORMAT_PNG	mtp.h	88;"	d
+MTP_FORMAT_SCRIPT	mtp.h	67;"	d
+MTP_FORMAT_TEXT	mtp.h	69;"	d
+MTP_FORMAT_TIFF	mtp.h	89;"	d
+MTP_FORMAT_TIFF_EP	mtp.h	80;"	d
+MTP_FORMAT_TIFF_IT	mtp.h	90;"	d
+MTP_FORMAT_UNDEFINED	mtp.h	65;"	d
+MTP_FORMAT_UNDEFINED_AUDIO	mtp.h	95;"	d
+MTP_FORMAT_UNDEFINED_COLLECTION	mtp.h	106;"	d
+MTP_FORMAT_UNDEFINED_CONTACT	mtp.h	132;"	d
+MTP_FORMAT_UNDEFINED_DOCUMENT	mtp.h	123;"	d
+MTP_FORMAT_UNDEFINED_FIRMWARE	mtp.h	93;"	d
+MTP_FORMAT_UNDEFINED_MESSAGE	mtp.h	130;"	d
+MTP_FORMAT_UNDEFINED_VIDEO	mtp.h	101;"	d
+MTP_FORMAT_VCARD_2	mtp.h	134;"	d
+MTP_FORMAT_WAV	mtp.h	73;"	d
+MTP_FORMAT_WINDOWS_IMAGE_FORMAT	mtp.h	94;"	d
+MTP_FORMAT_WMA	mtp.h	96;"	d
+MTP_FORMAT_WMV	mtp.h	102;"	d
+MTP_FORMAT_WPL_PLAYLIST	mtp.h	118;"	d
+MTP_FORMAT_XML_DOCUMENT	mtp.h	125;"	d
+MTP_OPERATION_BEGIN_EDIT_OBJECT	mtp.h	403;"	d
+MTP_OPERATION_CLOSE_SESSION	mtp.h	356;"	d
+MTP_OPERATION_COPY_OBJECT	mtp.h	379;"	d
+MTP_OPERATION_DELETE_OBJECT	mtp.h	364;"	d
+MTP_OPERATION_END_EDIT_OBJECT	mtp.h	405;"	d
+MTP_OPERATION_FORMAT_STORE	mtp.h	368;"	d
+MTP_OPERATION_GET_DEVICE_INFO	mtp.h	354;"	d
+MTP_OPERATION_GET_DEVICE_PROP_DESC	mtp.h	373;"	d
+MTP_OPERATION_GET_DEVICE_PROP_VALUE	mtp.h	374;"	d
+MTP_OPERATION_GET_INTERDEPENDENT_PROP_DESC	mtp.h	388;"	d
+MTP_OPERATION_GET_NUM_OBJECTS	mtp.h	359;"	d
+MTP_OPERATION_GET_OBJECT	mtp.h	362;"	d
+MTP_OPERATION_GET_OBJECT_HANDLES	mtp.h	360;"	d
+MTP_OPERATION_GET_OBJECT_INFO	mtp.h	361;"	d
+MTP_OPERATION_GET_OBJECT_PROPS_SUPPORTED	mtp.h	382;"	d
+MTP_OPERATION_GET_OBJECT_PROP_DESC	mtp.h	383;"	d
+MTP_OPERATION_GET_OBJECT_PROP_LIST	mtp.h	386;"	d
+MTP_OPERATION_GET_OBJECT_PROP_VALUE	mtp.h	384;"	d
+MTP_OPERATION_GET_OBJECT_REFERENCES	mtp.h	390;"	d
+MTP_OPERATION_GET_PARTIAL_OBJECT	mtp.h	380;"	d
+MTP_OPERATION_GET_PARTIAL_OBJECT_64	mtp.h	397;"	d
+MTP_OPERATION_GET_STORAGE_IDS	mtp.h	357;"	d
+MTP_OPERATION_GET_STORAGE_INFO	mtp.h	358;"	d
+MTP_OPERATION_GET_THUMB	mtp.h	363;"	d
+MTP_OPERATION_INITIATE_CAPTURE	mtp.h	367;"	d
+MTP_OPERATION_INITIATE_OPEN_CAPTURE	mtp.h	381;"	d
+MTP_OPERATION_MOVE_OBJECT	mtp.h	378;"	d
+MTP_OPERATION_OPEN_SESSION	mtp.h	355;"	d
+MTP_OPERATION_POWER_DOWN	mtp.h	372;"	d
+MTP_OPERATION_RESET_DEVICE	mtp.h	369;"	d
+MTP_OPERATION_RESET_DEVICE_PROP_VALUE	mtp.h	376;"	d
+MTP_OPERATION_SELF_TEST	mtp.h	370;"	d
+MTP_OPERATION_SEND_OBJECT	mtp.h	366;"	d
+MTP_OPERATION_SEND_OBJECT_INFO	mtp.h	365;"	d
+MTP_OPERATION_SEND_OBJECT_PROP_LIST	mtp.h	389;"	d
+MTP_OPERATION_SEND_PARTIAL_OBJECT	mtp.h	399;"	d
+MTP_OPERATION_SET_DEVICE_PROP_VALUE	mtp.h	375;"	d
+MTP_OPERATION_SET_OBJECT_PROP_LIST	mtp.h	387;"	d
+MTP_OPERATION_SET_OBJECT_PROP_VALUE	mtp.h	385;"	d
+MTP_OPERATION_SET_OBJECT_PROTECTION	mtp.h	371;"	d
+MTP_OPERATION_SET_OBJECT_REFERENCES	mtp.h	391;"	d
+MTP_OPERATION_SKIP	mtp.h	392;"	d
+MTP_OPERATION_TERMINATE_OPEN_CAPTURE	mtp.h	377;"	d
+MTP_OPERATION_TRUNCATE_OBJECT	mtp.h	401;"	d
+MTP_PARENT_ROOT	MtpTypes.h	47;"	d
+MTP_PROPERTY_ACTIVITY_ACCEPTED	mtp.h	291;"	d
+MTP_PROPERTY_ACTIVITY_BEGIN_TIME	mtp.h	285;"	d
+MTP_PROPERTY_ACTIVITY_DECLINED	mtp.h	293;"	d
+MTP_PROPERTY_ACTIVITY_END_TIME	mtp.h	286;"	d
+MTP_PROPERTY_ACTIVITY_LOCATION	mtp.h	287;"	d
+MTP_PROPERTY_ACTIVITY_OPTIONAL_ATTENDEES	mtp.h	289;"	d
+MTP_PROPERTY_ACTIVITY_OWNER	mtp.h	295;"	d
+MTP_PROPERTY_ACTIVITY_REMAINDER_TIME	mtp.h	294;"	d
+MTP_PROPERTY_ACTIVITY_REQUIRED_ATTENDEES	mtp.h	288;"	d
+MTP_PROPERTY_ACTIVITY_RESOURCES	mtp.h	290;"	d
+MTP_PROPERTY_ACTIVITY_STATUS	mtp.h	296;"	d
+MTP_PROPERTY_ACTIVITY_TENTATIVE	mtp.h	292;"	d
+MTP_PROPERTY_ALBUM_ARTIST	mtp.h	194;"	d
+MTP_PROPERTY_ALBUM_NAME	mtp.h	193;"	d
+MTP_PROPERTY_ALLOWED_FOLDER_CONTENTS	mtp.h	148;"	d
+MTP_PROPERTY_ARTIST	mtp.h	156;"	d
+MTP_PROPERTY_ASSOCIATION_DESC	mtp.h	142;"	d
+MTP_PROPERTY_ASSOCIATION_TYPE	mtp.h	141;"	d
+MTP_PROPERTY_AUDIO_BITRATE	mtp.h	211;"	d
+MTP_PROPERTY_AUDIO_BIT_DEPTH	mtp.h	208;"	d
+MTP_PROPERTY_AUDIO_WAVE_CODEC	mtp.h	210;"	d
+MTP_PROPERTY_BIRTHDATE	mtp.h	278;"	d
+MTP_PROPERTY_BITRATE_TYPE	mtp.h	205;"	d
+MTP_PROPERTY_BODY_TEXT	mtp.h	220;"	d
+MTP_PROPERTY_BUFFER_SIZE	mtp.h	216;"	d
+MTP_PROPERTY_BUSINESS_WEB_ADDRESS	mtp.h	250;"	d
+MTP_PROPERTY_BYTE_BOOKMARK	mtp.h	304;"	d
+MTP_PROPERTY_COMPOSER	mtp.h	189;"	d
+MTP_PROPERTY_COPYRIGHT_INFORMATION	mtp.h	161;"	d
+MTP_PROPERTY_CORRUPT_UNPLAYABLE	mtp.h	166;"	d
+MTP_PROPERTY_CREATED_BY	mtp.h	155;"	d
+MTP_PROPERTY_CREDITS	mtp.h	180;"	d
+MTP_PROPERTY_DATE_ADDED	mtp.h	164;"	d
+MTP_PROPERTY_DATE_AUTHORED	mtp.h	157;"	d
+MTP_PROPERTY_DATE_CREATED	mtp.h	144;"	d
+MTP_PROPERTY_DATE_MODIFIED	mtp.h	145;"	d
+MTP_PROPERTY_DESCRIPTION	mtp.h	158;"	d
+MTP_PROPERTY_DISPLAY_NAME	mtp.h	219;"	d
+MTP_PROPERTY_DRM_STATUS	mtp.h	196;"	d
+MTP_PROPERTY_DURATION	mtp.h	176;"	d
+MTP_PROPERTY_EDITOR	mtp.h	298;"	d
+MTP_PROPERTY_EFFECTIVE_RATING	mtp.h	190;"	d
+MTP_PROPERTY_EMAIL_BUSINESS_1	mtp.h	233;"	d
+MTP_PROPERTY_EMAIL_BUSINESS_2	mtp.h	234;"	d
+MTP_PROPERTY_EMAIL_OTHERS	mtp.h	235;"	d
+MTP_PROPERTY_EMAIL_PERSONAL_1	mtp.h	231;"	d
+MTP_PROPERTY_EMAIL_PERSONAL_2	mtp.h	232;"	d
+MTP_PROPERTY_EMAIL_PRIMARY	mtp.h	230;"	d
+MTP_PROPERTY_ENCODING_PROFILE	mtp.h	218;"	d
+MTP_PROPERTY_ENCODING_QUALITY	mtp.h	217;"	d
+MTP_PROPERTY_EXPOSURE_INDEX	mtp.h	203;"	d
+MTP_PROPERTY_EXPOSURE_TIME	mtp.h	202;"	d
+MTP_PROPERTY_FAMILY_NAME	mtp.h	225;"	d
+MTP_PROPERTY_FAX_NUMBER_BUSINESS	mtp.h	245;"	d
+MTP_PROPERTY_FAX_NUMBER_PERSONAL	mtp.h	244;"	d
+MTP_PROPERTY_FAX_NUMBER_PRIMARY	mtp.h	243;"	d
+MTP_PROPERTY_FRAMES_PER_THOUSAND_SECONDS	mtp.h	214;"	d
+MTP_PROPERTY_F_NUMBER	mtp.h	201;"	d
+MTP_PROPERTY_GENRE	mtp.h	179;"	d
+MTP_PROPERTY_GIVEN_NAME	mtp.h	223;"	d
+MTP_PROPERTY_HEIGHT	mtp.h	175;"	d
+MTP_PROPERTY_HIDDEN	mtp.h	149;"	d
+MTP_PROPERTY_IMAGE_BIT_DEPTH	mtp.h	200;"	d
+MTP_PROPERTY_INSTANT_MESSANGER_ADDRESS	mtp.h	251;"	d
+MTP_PROPERTY_INSTANT_MESSANGER_ADDRESS_2	mtp.h	252;"	d
+MTP_PROPERTY_INSTANT_MESSANGER_ADDRESS_3	mtp.h	253;"	d
+MTP_PROPERTY_IS_COLOUR_CORRECTED	mtp.h	199;"	d
+MTP_PROPERTY_IS_CROPPED	mtp.h	198;"	d
+MTP_PROPERTY_KEYFRAME_DISTANCE	mtp.h	215;"	d
+MTP_PROPERTY_KEYWORDS	mtp.h	146;"	d
+MTP_PROPERTY_LANGUAGE_LOCALE	mtp.h	160;"	d
+MTP_PROPERTY_LAST_ACCESSED	mtp.h	186;"	d
+MTP_PROPERTY_LAST_BUILD_DATE	mtp.h	305;"	d
+MTP_PROPERTY_LYRICS	mtp.h	181;"	d
+MTP_PROPERTY_MEDIA_GUID	mtp.h	307;"	d
+MTP_PROPERTY_MESSAGE_BCC	mtp.h	281;"	d
+MTP_PROPERTY_MESSAGE_CC	mtp.h	280;"	d
+MTP_PROPERTY_MESSAGE_READ	mtp.h	282;"	d
+MTP_PROPERTY_MESSAGE_RECEIVED_TIME	mtp.h	283;"	d
+MTP_PROPERTY_MESSAGE_SENDER	mtp.h	284;"	d
+MTP_PROPERTY_MESSAGE_TO	mtp.h	279;"	d
+MTP_PROPERTY_META_GENRE	mtp.h	188;"	d
+MTP_PROPERTY_MIDDLE_NAMES	mtp.h	224;"	d
+MTP_PROPERTY_MOOD	mtp.h	195;"	d
+MTP_PROPERTY_NAME	mtp.h	154;"	d
+MTP_PROPERTY_NON_CONSUMABLE	mtp.h	165;"	d
+MTP_PROPERTY_NUMBER_OF_CHANNELS	mtp.h	207;"	d
+MTP_PROPERTY_OBJECT_BOOKMARK	mtp.h	303;"	d
+MTP_PROPERTY_OBJECT_FILE_NAME	mtp.h	143;"	d
+MTP_PROPERTY_OBJECT_FORMAT	mtp.h	138;"	d
+MTP_PROPERTY_OBJECT_SIZE	mtp.h	140;"	d
+MTP_PROPERTY_ORGANIZATION_NAME	mtp.h	275;"	d
+MTP_PROPERTY_ORIGINAL_RELEASE_DATE	mtp.h	192;"	d
+MTP_PROPERTY_ORIGIN_LOCATION	mtp.h	163;"	d
+MTP_PROPERTY_OWNER	mtp.h	297;"	d
+MTP_PROPERTY_PAGER_NUMBER	mtp.h	246;"	d
+MTP_PROPERTY_PARENTAL_RATING	mtp.h	187;"	d
+MTP_PROPERTY_PARENT_OBJECT	mtp.h	147;"	d
+MTP_PROPERTY_PERSISTENT_UID	mtp.h	151;"	d
+MTP_PROPERTY_PERSONAL_WEB_ADDRESS	mtp.h	249;"	d
+MTP_PROPERTY_PHONETIC_FAMILY_NAME	mtp.h	229;"	d
+MTP_PROPERTY_PHONETIC_GIVEN_NAME	mtp.h	228;"	d
+MTP_PROPERTY_PHONETIC_ORGANIZATION_NAME	mtp.h	276;"	d
+MTP_PROPERTY_PHONE_NUMBER_BUSINESS	mtp.h	239;"	d
+MTP_PROPERTY_PHONE_NUMBER_BUSINESS_2	mtp.h	240;"	d
+MTP_PROPERTY_PHONE_NUMBER_MOBILE	mtp.h	241;"	d
+MTP_PROPERTY_PHONE_NUMBER_MOBILE_2	mtp.h	242;"	d
+MTP_PROPERTY_PHONE_NUMBER_OTHERS	mtp.h	247;"	d
+MTP_PROPERTY_PHONE_NUMBER_PERSONAL	mtp.h	237;"	d
+MTP_PROPERTY_PHONE_NUMBER_PERSONAL_2	mtp.h	238;"	d
+MTP_PROPERTY_PHONE_NUMBER_PRIMARY	mtp.h	236;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_BUSINESS_CITY	mtp.h	264;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_BUSINESS_COUNTRY	mtp.h	267;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_BUSINESS_FULL	mtp.h	261;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_BUSINESS_LINE_1	mtp.h	262;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_BUSINESS_LINE_2	mtp.h	263;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_BUSINESS_POSTAL_CODE	mtp.h	266;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_BUSINESS_REGION	mtp.h	265;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_OTHER_CITY	mtp.h	271;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_OTHER_COUNTRY	mtp.h	274;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_OTHER_FULL	mtp.h	268;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_OTHER_LINE_1	mtp.h	269;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_OTHER_LINE_2	mtp.h	270;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_OTHER_POSTAL_CODE	mtp.h	273;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_OTHER_REGION	mtp.h	272;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_PERSONAL_CITY	mtp.h	257;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_PERSONAL_COUNTRY	mtp.h	260;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_PERSONAL_FULL	mtp.h	254;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_PERSONAL_LINE_1	mtp.h	255;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_PERSONAL_LINE_2	mtp.h	256;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_PERSONAL_POSTAL_CODE	mtp.h	259;"	d
+MTP_PROPERTY_POSTAL_ADDRESS_PERSONAL_REGION	mtp.h	258;"	d
+MTP_PROPERTY_PREFIX	mtp.h	226;"	d
+MTP_PROPERTY_PRIMARY_WEB_ADDRESS	mtp.h	248;"	d
+MTP_PROPERTY_PRIORITY	mtp.h	222;"	d
+MTP_PROPERTY_PRODUCED_BY	mtp.h	183;"	d
+MTP_PROPERTY_PRODUCER_SERIAL_NUMBER	mtp.h	167;"	d
+MTP_PROPERTY_PROPERTY_BAG	mtp.h	153;"	d
+MTP_PROPERTY_PROTECTION_STATUS	mtp.h	139;"	d
+MTP_PROPERTY_RATING	mtp.h	177;"	d
+MTP_PROPERTY_REPRESENTATIVE_SAMPLE_DATA	mtp.h	173;"	d
+MTP_PROPERTY_REPRESENTATIVE_SAMPLE_DURATION	mtp.h	172;"	d
+MTP_PROPERTY_REPRESENTATIVE_SAMPLE_FORMAT	mtp.h	168;"	d
+MTP_PROPERTY_REPRESENTATIVE_SAMPLE_HEIGHT	mtp.h	170;"	d
+MTP_PROPERTY_REPRESENTATIVE_SAMPLE_SIZE	mtp.h	169;"	d
+MTP_PROPERTY_REPRESENTATIVE_SAMPLE_WIDTH	mtp.h	171;"	d
+MTP_PROPERTY_ROLE	mtp.h	277;"	d
+MTP_PROPERTY_SAMPLE_RATE	mtp.h	206;"	d
+MTP_PROPERTY_SCAN_TYPE	mtp.h	209;"	d
+MTP_PROPERTY_SKIP_COUNT	mtp.h	185;"	d
+MTP_PROPERTY_SOURCE	mtp.h	162;"	d
+MTP_PROPERTY_STORAGE_ID	mtp.h	137;"	d
+MTP_PROPERTY_SUBJECT	mtp.h	221;"	d
+MTP_PROPERTY_SUBSCRIPTION_CONTENT_ID	mtp.h	182;"	d
+MTP_PROPERTY_SUBTITLE	mtp.h	191;"	d
+MTP_PROPERTY_SUB_DESCRIPTION	mtp.h	197;"	d
+MTP_PROPERTY_SUFFIX	mtp.h	227;"	d
+MTP_PROPERTY_SYNC_ID	mtp.h	152;"	d
+MTP_PROPERTY_SYSTEM_OBJECT	mtp.h	150;"	d
+MTP_PROPERTY_TIME_BOOKMARK	mtp.h	302;"	d
+MTP_PROPERTY_TIME_TO_LIVE	mtp.h	306;"	d
+MTP_PROPERTY_TOTAL_BITRATE	mtp.h	204;"	d
+MTP_PROPERTY_TRACK	mtp.h	178;"	d
+MTP_PROPERTY_URL_DESTINATION	mtp.h	301;"	d
+MTP_PROPERTY_URL_REFERENCE	mtp.h	159;"	d
+MTP_PROPERTY_URL_SOURCE	mtp.h	300;"	d
+MTP_PROPERTY_USE_COUNT	mtp.h	184;"	d
+MTP_PROPERTY_VIDEO_BITRATE	mtp.h	213;"	d
+MTP_PROPERTY_VIDEO_FOURCC_CODEC	mtp.h	212;"	d
+MTP_PROPERTY_WEBMASTER	mtp.h	299;"	d
+MTP_PROPERTY_WIDTH	mtp.h	174;"	d
+MTP_RESPONSE_ACCESS_DENIED	mtp.h	423;"	d
+MTP_RESPONSE_CAPTURE_ALREADY_TERMINATED	mtp.h	432;"	d
+MTP_RESPONSE_DEVICE_BUSY	mtp.h	433;"	d
+MTP_RESPONSE_DEVICE_PROP_NOT_SUPPORTED	mtp.h	418;"	d
+MTP_RESPONSE_GENERAL_ERROR	mtp.h	410;"	d
+MTP_RESPONSE_GROUP_NOT_SUPPORTED	mtp.h	445;"	d
+MTP_RESPONSE_INCOMPLETE_TRANSFER	mtp.h	415;"	d
+MTP_RESPONSE_INVALID_CODE_FORMAT	mtp.h	430;"	d
+MTP_RESPONSE_INVALID_DATASET	mtp.h	446;"	d
+MTP_RESPONSE_INVALID_DEVICE_PROP_FORMAT	mtp.h	435;"	d
+MTP_RESPONSE_INVALID_DEVICE_PROP_VALUE	mtp.h	436;"	d
+MTP_RESPONSE_INVALID_OBJECT_FORMAT_CODE	mtp.h	419;"	d
+MTP_RESPONSE_INVALID_OBJECT_HANDLE	mtp.h	417;"	d
+MTP_RESPONSE_INVALID_OBJECT_PROP_CODE	mtp.h	441;"	d
+MTP_RESPONSE_INVALID_OBJECT_PROP_FORMAT	mtp.h	442;"	d
+MTP_RESPONSE_INVALID_OBJECT_PROP_VALUE	mtp.h	443;"	d
+MTP_RESPONSE_INVALID_OBJECT_REFERENCE	mtp.h	444;"	d
+MTP_RESPONSE_INVALID_PARAMETER	mtp.h	437;"	d
+MTP_RESPONSE_INVALID_PARENT_OBJECT	mtp.h	434;"	d
+MTP_RESPONSE_INVALID_STORAGE_ID	mtp.h	416;"	d
+MTP_RESPONSE_INVALID_TRANSACTION_ID	mtp.h	412;"	d
+MTP_RESPONSE_NO_THUMBNAIL_PRESENT	mtp.h	424;"	d
+MTP_RESPONSE_NO_VALID_OBJECT_INFO	mtp.h	429;"	d
+MTP_RESPONSE_OBJECT_PROP_NOT_SUPPORTED	mtp.h	450;"	d
+MTP_RESPONSE_OBJECT_TOO_LARGE	mtp.h	449;"	d
+MTP_RESPONSE_OBJECT_WRITE_PROTECTED	mtp.h	421;"	d
+MTP_RESPONSE_OK	mtp.h	409;"	d
+MTP_RESPONSE_OPERATION_NOT_SUPPORTED	mtp.h	413;"	d
+MTP_RESPONSE_PARAMETER_NOT_SUPPORTED	mtp.h	414;"	d
+MTP_RESPONSE_PARTIAL_DELETION	mtp.h	426;"	d
+MTP_RESPONSE_SELF_TEST_FAILED	mtp.h	425;"	d
+MTP_RESPONSE_SESSION_ALREADY_OPEN	mtp.h	438;"	d
+MTP_RESPONSE_SESSION_NOT_OPEN	mtp.h	411;"	d
+MTP_RESPONSE_SPECIFICATION_BY_DEPTH_UNSUPPORTED	mtp.h	448;"	d
+MTP_RESPONSE_SPECIFICATION_BY_FORMAT_UNSUPPORTED	mtp.h	428;"	d
+MTP_RESPONSE_SPECIFICATION_BY_GROUP_UNSUPPORTED	mtp.h	447;"	d
+MTP_RESPONSE_SPECIFICATION_OF_DESTINATION_UNSUPPORTED	mtp.h	440;"	d
+MTP_RESPONSE_STORAGE_FULL	mtp.h	420;"	d
+MTP_RESPONSE_STORE_NOT_AVAILABLE	mtp.h	427;"	d
+MTP_RESPONSE_STORE_READ_ONLY	mtp.h	422;"	d
+MTP_RESPONSE_TRANSACTION_CANCELLED	mtp.h	439;"	d
+MTP_RESPONSE_UNDEFINED	mtp.h	408;"	d
+MTP_RESPONSE_UNKNOWN_VENDOR_CODE	mtp.h	431;"	d
+MTP_STANDARD_VERSION	mtp.h	23;"	d
+MTP_STORAGE_FILESYSTEM_DCF	mtp.h	481;"	d
+MTP_STORAGE_FILESYSTEM_FLAT	mtp.h	479;"	d
+MTP_STORAGE_FILESYSTEM_HIERARCHICAL	mtp.h	480;"	d
+MTP_STORAGE_FIXED_RAM	mtp.h	475;"	d
+MTP_STORAGE_FIXED_ROM	mtp.h	473;"	d
+MTP_STORAGE_READ_ONLY_WITHOUT_DELETE	mtp.h	485;"	d
+MTP_STORAGE_READ_ONLY_WITH_DELETE	mtp.h	486;"	d
+MTP_STORAGE_READ_WRITE	mtp.h	484;"	d
+MTP_STORAGE_REMOVABLE_RAM	mtp.h	476;"	d
+MTP_STORAGE_REMOVABLE_ROM	mtp.h	474;"	d
+MTP_TYPE_AINT128	mtp.h	60;"	d
+MTP_TYPE_AINT16	mtp.h	54;"	d
+MTP_TYPE_AINT32	mtp.h	56;"	d
+MTP_TYPE_AINT64	mtp.h	58;"	d
+MTP_TYPE_AINT8	mtp.h	52;"	d
+MTP_TYPE_AUINT128	mtp.h	61;"	d
+MTP_TYPE_AUINT16	mtp.h	55;"	d
+MTP_TYPE_AUINT32	mtp.h	57;"	d
+MTP_TYPE_AUINT64	mtp.h	59;"	d
+MTP_TYPE_AUINT8	mtp.h	53;"	d
+MTP_TYPE_INT128	mtp.h	50;"	d
+MTP_TYPE_INT16	mtp.h	44;"	d
+MTP_TYPE_INT32	mtp.h	46;"	d
+MTP_TYPE_INT64	mtp.h	48;"	d
+MTP_TYPE_INT8	mtp.h	42;"	d
+MTP_TYPE_STR	mtp.h	62;"	d
+MTP_TYPE_UINT128	mtp.h	51;"	d
+MTP_TYPE_UINT16	mtp.h	45;"	d
+MTP_TYPE_UINT32	mtp.h	47;"	d
+MTP_TYPE_UINT64	mtp.h	49;"	d
+MTP_TYPE_UINT8	mtp.h	43;"	d
+MTP_TYPE_UNDEFINED	mtp.h	41;"	d
+MtpDataPacket	MtpDataPacket.cpp	/^MtpDataPacket::MtpDataPacket()$/;"	f	class:android::MtpDataPacket
+MtpDataPacket	MtpDataPacket.h	/^class MtpDataPacket : public MtpPacket {$/;"	c	namespace:android
+MtpDataType	MtpTypes.h	/^typedef uint16_t MtpDataType;$/;"	t	namespace:android
+MtpDatabase	MtpDatabase.h	/^class MtpDatabase {$/;"	c	namespace:android
+MtpDebug	MtpDebug.h	/^class MtpDebug {$/;"	c	namespace:android
+MtpDevice	MtpDevice.cpp	/^MtpDevice::MtpDevice(struct usb_device* device, int interface,$/;"	f	class:android::MtpDevice
+MtpDevice	MtpDevice.h	/^class MtpDevice {$/;"	c	namespace:android
+MtpDeviceInfo	MtpDeviceInfo.cpp	/^MtpDeviceInfo::MtpDeviceInfo()$/;"	f	class:android::MtpDeviceInfo
+MtpDeviceInfo	MtpDeviceInfo.h	/^class MtpDeviceInfo {$/;"	c	namespace:android
+MtpDeviceList	MtpTypes.h	/^typedef Vector<MtpDevice*> MtpDeviceList;$/;"	t	namespace:android
+MtpDeviceProperty	MtpTypes.h	/^typedef MtpPropertyCode MtpDeviceProperty;$/;"	t	namespace:android
+MtpDevicePropertyList	MtpTypes.h	/^typedef UInt16List MtpDevicePropertyList;$/;"	t	namespace:android
+MtpEventCode	MtpTypes.h	/^typedef uint16_t MtpEventCode;$/;"	t	namespace:android
+MtpEventPacket	MtpEventPacket.cpp	/^MtpEventPacket::MtpEventPacket()$/;"	f	class:android::MtpEventPacket
+MtpEventPacket	MtpEventPacket.h	/^class MtpEventPacket : public MtpPacket {$/;"	c	namespace:android
+MtpObjectFormat	MtpTypes.h	/^typedef uint16_t MtpObjectFormat;$/;"	t	namespace:android
+MtpObjectFormatList	MtpTypes.h	/^typedef UInt16List MtpObjectFormatList;$/;"	t	namespace:android
+MtpObjectHandle	MtpTypes.h	/^typedef uint32_t MtpObjectHandle;$/;"	t	namespace:android
+MtpObjectHandleList	MtpTypes.h	/^typedef UInt32List MtpObjectHandleList;$/;"	t	namespace:android
+MtpObjectInfo	MtpObjectInfo.cpp	/^MtpObjectInfo::MtpObjectInfo(MtpObjectHandle handle)$/;"	f	class:android::MtpObjectInfo
+MtpObjectInfo	MtpObjectInfo.h	/^class MtpObjectInfo {$/;"	c	namespace:android
+MtpObjectProperty	MtpTypes.h	/^typedef MtpPropertyCode MtpObjectProperty;$/;"	t	namespace:android
+MtpObjectPropertyList	MtpTypes.h	/^typedef UInt16List MtpObjectPropertyList;$/;"	t	namespace:android
+MtpOperationCode	MtpTypes.h	/^typedef uint16_t MtpOperationCode;$/;"	t	namespace:android
+MtpPacket	MtpPacket.cpp	/^MtpPacket::MtpPacket(int bufferSize)$/;"	f	class:android::MtpPacket
+MtpPacket	MtpPacket.h	/^class MtpPacket {$/;"	c	namespace:android
+MtpProperty	MtpProperty.cpp	/^MtpProperty::MtpProperty()$/;"	f	class:android::MtpProperty
+MtpProperty	MtpProperty.cpp	/^MtpProperty::MtpProperty(MtpPropertyCode propCode,$/;"	f	class:android::MtpProperty
+MtpProperty	MtpProperty.h	/^class MtpProperty {$/;"	c	namespace:android
+MtpPropertyCode	MtpTypes.h	/^typedef uint16_t MtpPropertyCode;$/;"	t	namespace:android
+MtpPropertyList	MtpTypes.h	/^typedef Vector<MtpProperty*> MtpPropertyList;$/;"	t	namespace:android
+MtpPropertyValue	MtpProperty.h	/^struct MtpPropertyValue {$/;"	s	namespace:android
+MtpRequestPacket	MtpRequestPacket.cpp	/^MtpRequestPacket::MtpRequestPacket()$/;"	f	class:android::MtpRequestPacket
+MtpRequestPacket	MtpRequestPacket.h	/^class MtpRequestPacket : public MtpPacket {$/;"	c	namespace:android
+MtpResponseCode	MtpTypes.h	/^typedef uint16_t MtpResponseCode;$/;"	t	namespace:android
+MtpResponsePacket	MtpResponsePacket.cpp	/^MtpResponsePacket::MtpResponsePacket()$/;"	f	class:android::MtpResponsePacket
+MtpResponsePacket	MtpResponsePacket.h	/^class MtpResponsePacket : public MtpPacket {$/;"	c	namespace:android
+MtpServer	MtpServer.cpp	/^MtpServer::MtpServer(int fd, MtpDatabase* database, bool ptp,$/;"	f	class:android::MtpServer
+MtpServer	MtpServer.h	/^class MtpServer {$/;"	c	namespace:android
+MtpSessionID	MtpTypes.h	/^typedef uint32_t MtpSessionID;$/;"	t	namespace:android
+MtpStorage	MtpStorage.cpp	/^MtpStorage::MtpStorage(MtpStorageID id, const char* filePath,$/;"	f	class:android::MtpStorage
+MtpStorage	MtpStorage.h	/^class MtpStorage {$/;"	c	namespace:android
+MtpStorageID	MtpTypes.h	/^typedef uint32_t MtpStorageID;$/;"	t	namespace:android
+MtpStorageIDList	MtpTypes.h	/^typedef UInt32List MtpStorageIDList;$/;"	t	namespace:android
+MtpStorageInfo	MtpStorageInfo.cpp	/^MtpStorageInfo::MtpStorageInfo(MtpStorageID id)$/;"	f	class:android::MtpStorageInfo
+MtpStorageInfo	MtpStorageInfo.h	/^class MtpStorageInfo {$/;"	c	namespace:android
+MtpStorageList	MtpTypes.h	/^typedef Vector<MtpStorage *> MtpStorageList;$/;"	t	namespace:android
+MtpString	MtpTypes.h	/^typedef String8    MtpString;$/;"	t	namespace:android
+MtpStringBuffer	MtpStringBuffer.cpp	/^MtpStringBuffer::MtpStringBuffer()$/;"	f	class:android::MtpStringBuffer
+MtpStringBuffer	MtpStringBuffer.cpp	/^MtpStringBuffer::MtpStringBuffer(const MtpStringBuffer& src)$/;"	f	class:android::MtpStringBuffer
+MtpStringBuffer	MtpStringBuffer.cpp	/^MtpStringBuffer::MtpStringBuffer(const char* src)$/;"	f	class:android::MtpStringBuffer
+MtpStringBuffer	MtpStringBuffer.cpp	/^MtpStringBuffer::MtpStringBuffer(const uint16_t* src)$/;"	f	class:android::MtpStringBuffer
+MtpStringBuffer	MtpStringBuffer.h	/^class MtpStringBuffer {$/;"	c	namespace:android
+MtpTransactionID	MtpTypes.h	/^typedef uint32_t MtpTransactionID;$/;"	t	namespace:android
+ObjectEdit	MtpServer.h	/^        ObjectEdit(MtpObjectHandle handle, const char* path, uint64_t size,$/;"	f	class:android::MtpServer::ObjectEdit
+ObjectEdit	MtpServer.h	/^    class ObjectEdit {$/;"	c	class:android::MtpServer
+UInt16List	MtpTypes.h	/^typedef Vector<uint16_t> UInt16List;$/;"	t	namespace:android
+UInt32List	MtpTypes.h	/^typedef Vector<uint32_t> UInt32List;$/;"	t	namespace:android
+UInt64List	MtpTypes.h	/^typedef Vector<uint64_t> UInt64List;$/;"	t	namespace:android
+UInt8List	MtpTypes.h	/^typedef Vector<uint8_t> UInt8List;$/;"	t	namespace:android
+_MTP_DATABASE_H	MtpDatabase.h	18;"	d
+_MTP_DATA_PACKET_H	MtpDataPacket.h	18;"	d
+_MTP_DEBUG_H	MtpDebug.h	18;"	d
+_MTP_DEVICE_H	MtpDevice.h	18;"	d
+_MTP_DEVICE_INFO_H	MtpDeviceInfo.h	18;"	d
+_MTP_EVENT_PACKET_H	MtpEventPacket.h	18;"	d
+_MTP_H	mtp.h	18;"	d
+_MTP_OBJECT_INFO_H	MtpObjectInfo.h	18;"	d
+_MTP_PACKET_H	MtpPacket.h	18;"	d
+_MTP_PROPERTY_H	MtpProperty.h	18;"	d
+_MTP_REQUEST_PACKET_H	MtpRequestPacket.h	18;"	d
+_MTP_RESPONSE_PACKET_H	MtpResponsePacket.h	18;"	d
+_MTP_SERVER_H	MtpServer.h	18;"	d
+_MTP_STORAGE_H	MtpStorage.h	18;"	d
+_MTP_STORAGE_INFO_H	MtpStorageInfo.h	18;"	d
+_MTP_STRING_BUFFER_H	MtpStringBuffer.h	18;"	d
+_MTP_TYPES_H	MtpTypes.h	18;"	d
+_MTP_UTILS_H	MtpUtils.h	18;"	d
+addEditObject	MtpServer.cpp	/^void MtpServer::addEditObject(MtpObjectHandle handle, MtpString& path,$/;"	f	class:android::MtpServer
+addStorage	MtpServer.cpp	/^void MtpServer::addStorage(MtpStorage* storage) {$/;"	f	class:android::MtpServer
+allocate	MtpPacket.cpp	/^void MtpPacket::allocate(int length) {$/;"	f	class:android::MtpPacket
+android	MtpDataPacket.cpp	/^namespace android {$/;"	n	file:
+android	MtpDataPacket.h	/^namespace android {$/;"	n
+android	MtpDatabase.h	/^namespace android {$/;"	n
+android	MtpDebug.cpp	/^namespace android {$/;"	n	file:
+android	MtpDebug.h	/^namespace android {$/;"	n
+android	MtpDevice.cpp	/^namespace android {$/;"	n	file:
+android	MtpDevice.h	/^namespace android {$/;"	n
+android	MtpDeviceInfo.cpp	/^namespace android {$/;"	n	file:
+android	MtpDeviceInfo.h	/^namespace android {$/;"	n
+android	MtpEventPacket.cpp	/^namespace android {$/;"	n	file:
+android	MtpEventPacket.h	/^namespace android {$/;"	n
+android	MtpObjectInfo.cpp	/^namespace android {$/;"	n	file:
+android	MtpObjectInfo.h	/^namespace android {$/;"	n
+android	MtpPacket.cpp	/^namespace android {$/;"	n	file:
+android	MtpPacket.h	/^namespace android {$/;"	n
+android	MtpProperty.cpp	/^namespace android {$/;"	n	file:
+android	MtpProperty.h	/^namespace android {$/;"	n
+android	MtpRequestPacket.cpp	/^namespace android {$/;"	n	file:
+android	MtpRequestPacket.h	/^namespace android {$/;"	n
+android	MtpResponsePacket.cpp	/^namespace android {$/;"	n	file:
+android	MtpResponsePacket.h	/^namespace android {$/;"	n
+android	MtpServer.cpp	/^namespace android {$/;"	n	file:
+android	MtpServer.h	/^namespace android {$/;"	n
+android	MtpStorage.cpp	/^namespace android {$/;"	n	file:
+android	MtpStorage.h	/^namespace android {$/;"	n
+android	MtpStorageInfo.cpp	/^namespace android {$/;"	n	file:
+android	MtpStorageInfo.h	/^namespace android {$/;"	n
+android	MtpStringBuffer.cpp	/^namespace android {$/;"	n	file:
+android	MtpStringBuffer.h	/^namespace android {$/;"	n
+android	MtpTypes.h	/^namespace android {$/;"	n
+android	MtpUtils.cpp	/^namespace android {$/;"	n	file:
+android	MtpUtils.h	/^namespace android {$/;"	n
+close	MtpDevice.cpp	/^void MtpDevice::close() {$/;"	f	class:android::MtpDevice
+closeSession	MtpDevice.cpp	/^bool MtpDevice::closeSession() {$/;"	f	class:android::MtpDevice
+code	MtpDebug.cpp	/^    uint16_t code;$/;"	m	struct:android::CodeEntry	file:
+commitEdit	MtpServer.cpp	/^void MtpServer::commitEdit(ObjectEdit* edit) {$/;"	f	class:android::MtpServer
+copyFrom	MtpPacket.cpp	/^void MtpPacket::copyFrom(const MtpPacket& src) {$/;"	f	class:android::MtpPacket
+deleteObject	MtpDevice.cpp	/^bool MtpDevice::deleteObject(MtpObjectHandle handle) {$/;"	f	class:android::MtpDevice
+deletePath	MtpServer.cpp	/^static void deletePath(const char* path) {$/;"	f	namespace:android
+deleteRecursive	MtpServer.cpp	/^static void deleteRecursive(const char* path) {$/;"	f	namespace:android
+doBeginEditObject	MtpServer.cpp	/^MtpResponseCode MtpServer::doBeginEditObject() {$/;"	f	class:android::MtpServer
+doCloseSession	MtpServer.cpp	/^MtpResponseCode MtpServer::doCloseSession() {$/;"	f	class:android::MtpServer
+doDeleteObject	MtpServer.cpp	/^MtpResponseCode MtpServer::doDeleteObject() {$/;"	f	class:android::MtpServer
+doEndEditObject	MtpServer.cpp	/^MtpResponseCode MtpServer::doEndEditObject() {$/;"	f	class:android::MtpServer
+doGetDeviceInfo	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetDeviceInfo() {$/;"	f	class:android::MtpServer
+doGetDevicePropDesc	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetDevicePropDesc() {$/;"	f	class:android::MtpServer
+doGetDevicePropValue	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetDevicePropValue() {$/;"	f	class:android::MtpServer
+doGetNumObjects	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetNumObjects() {$/;"	f	class:android::MtpServer
+doGetObject	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetObject() {$/;"	f	class:android::MtpServer
+doGetObjectHandles	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetObjectHandles() {$/;"	f	class:android::MtpServer
+doGetObjectInfo	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetObjectInfo() {$/;"	f	class:android::MtpServer
+doGetObjectPropDesc	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetObjectPropDesc() {$/;"	f	class:android::MtpServer
+doGetObjectPropList	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetObjectPropList() {$/;"	f	class:android::MtpServer
+doGetObjectPropValue	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetObjectPropValue() {$/;"	f	class:android::MtpServer
+doGetObjectPropsSupported	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetObjectPropsSupported() {$/;"	f	class:android::MtpServer
+doGetObjectReferences	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetObjectReferences() {$/;"	f	class:android::MtpServer
+doGetPartialObject	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetPartialObject(MtpOperationCode operation) {$/;"	f	class:android::MtpServer
+doGetStorageIDs	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetStorageIDs() {$/;"	f	class:android::MtpServer
+doGetStorageInfo	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetStorageInfo() {$/;"	f	class:android::MtpServer
+doGetThumb	MtpServer.cpp	/^MtpResponseCode MtpServer::doGetThumb() {$/;"	f	class:android::MtpServer
+doOpenSession	MtpServer.cpp	/^MtpResponseCode MtpServer::doOpenSession() {$/;"	f	class:android::MtpServer
+doResetDevicePropValue	MtpServer.cpp	/^MtpResponseCode MtpServer::doResetDevicePropValue() {$/;"	f	class:android::MtpServer
+doSendObject	MtpServer.cpp	/^MtpResponseCode MtpServer::doSendObject() {$/;"	f	class:android::MtpServer
+doSendObjectInfo	MtpServer.cpp	/^MtpResponseCode MtpServer::doSendObjectInfo() {$/;"	f	class:android::MtpServer
+doSendPartialObject	MtpServer.cpp	/^MtpResponseCode MtpServer::doSendPartialObject() {$/;"	f	class:android::MtpServer
+doSetDevicePropValue	MtpServer.cpp	/^MtpResponseCode MtpServer::doSetDevicePropValue() {$/;"	f	class:android::MtpServer
+doSetObjectPropValue	MtpServer.cpp	/^MtpResponseCode MtpServer::doSetObjectPropValue() {$/;"	f	class:android::MtpServer
+doSetObjectReferences	MtpServer.cpp	/^MtpResponseCode MtpServer::doSetObjectReferences() {$/;"	f	class:android::MtpServer
+doTruncateObject	MtpServer.cpp	/^MtpResponseCode MtpServer::doTruncateObject() {$/;"	f	class:android::MtpServer
+dump	MtpPacket.cpp	/^void MtpPacket::dump() {$/;"	f	class:android::MtpPacket
+formatDateTime	MtpUtils.cpp	/^void formatDateTime(time_t seconds, char* buffer, int bufferLength) {$/;"	f	namespace:android
+getAInt16	MtpDataPacket.cpp	/^Int16List* MtpDataPacket::getAInt16() {$/;"	f	class:android::MtpDataPacket
+getAInt32	MtpDataPacket.cpp	/^Int32List* MtpDataPacket::getAInt32() {$/;"	f	class:android::MtpDataPacket
+getAInt64	MtpDataPacket.cpp	/^Int64List* MtpDataPacket::getAInt64() {$/;"	f	class:android::MtpDataPacket
+getAInt8	MtpDataPacket.cpp	/^Int8List* MtpDataPacket::getAInt8() {$/;"	f	class:android::MtpDataPacket
+getAUInt16	MtpDataPacket.cpp	/^UInt16List* MtpDataPacket::getAUInt16() {$/;"	f	class:android::MtpDataPacket
+getAUInt32	MtpDataPacket.cpp	/^UInt32List* MtpDataPacket::getAUInt32() {$/;"	f	class:android::MtpDataPacket
+getAUInt64	MtpDataPacket.cpp	/^UInt64List* MtpDataPacket::getAUInt64() {$/;"	f	class:android::MtpDataPacket
+getAUInt8	MtpDataPacket.cpp	/^UInt8List* MtpDataPacket::getAUInt8() {$/;"	f	class:android::MtpDataPacket
+getAccessCapability	MtpStorage.cpp	/^int MtpStorage::getAccessCapability() const {$/;"	f	class:android::MtpStorage
+getByteCount	MtpStringBuffer.h	/^    inline int      getByteCount() const { return mByteCount; }$/;"	f	class:android::MtpStringBuffer
+getCharCount	MtpStringBuffer.h	/^    inline int      getCharCount() const { return mCharCount; }$/;"	f	class:android::MtpStringBuffer
+getCodeName	MtpDebug.cpp	/^static const char* getCodeName(uint16_t code, const CodeEntry* table) {$/;"	f	namespace:android
+getContainerCode	MtpPacket.cpp	/^uint16_t MtpPacket::getContainerCode() const {$/;"	f	class:android::MtpPacket
+getContainerLength	MtpDataPacket.h	/^    inline uint32_t     getContainerLength() const { return MtpPacket::getUInt32(MTP_CONTAINER_LENGTH_OFFSET); }$/;"	f	class:android::MtpDataPacket
+getContainerType	MtpPacket.cpp	/^uint16_t MtpPacket::getContainerType() const {$/;"	f	class:android::MtpPacket
+getData	MtpDataPacket.cpp	/^void* MtpDataPacket::getData(int& outLength) const {$/;"	f	class:android::MtpDataPacket
+getData	MtpDataPacket.h	/^    inline const uint8_t*     getData() const { return mBuffer + MTP_CONTAINER_HEADER_SIZE; }$/;"	f	class:android::MtpDataPacket
+getDescription	MtpStorage.cpp	/^const char* MtpStorage::getDescription() const {$/;"	f	class:android::MtpStorage
+getDeviceInfo	MtpDevice.cpp	/^MtpDeviceInfo* MtpDevice::getDeviceInfo() {$/;"	f	class:android::MtpDevice
+getDeviceName	MtpDevice.cpp	/^const char* MtpDevice::getDeviceName() {$/;"	f	class:android::MtpDevice
+getDevicePropCodeName	MtpDebug.cpp	/^const char* MtpDebug::getDevicePropCodeName(MtpPropertyCode code) {$/;"	f	class:android::MtpDebug
+getDevicePropDesc	MtpDevice.cpp	/^MtpProperty* MtpDevice::getDevicePropDesc(MtpDeviceProperty code) {$/;"	f	class:android::MtpDevice
+getEditObject	MtpServer.cpp	/^MtpServer::ObjectEdit* MtpServer::getEditObject(MtpObjectHandle handle) {$/;"	f	class:android::MtpServer
+getEventCode	MtpEventPacket.h	/^    inline MtpEventCode     getEventCode() const { return getContainerCode(); }$/;"	f	class:android::MtpEventPacket
+getFileSystemType	MtpStorage.cpp	/^int MtpStorage::getFileSystemType() const {$/;"	f	class:android::MtpStorage
+getFormatCodeName	MtpDebug.cpp	/^const char* MtpDebug::getFormatCodeName(MtpObjectFormat code) {$/;"	f	class:android::MtpDebug
+getFreeSpace	MtpStorage.cpp	/^uint64_t MtpStorage::getFreeSpace() {$/;"	f	class:android::MtpStorage
+getInt128	MtpDataPacket.h	/^    inline void         getInt128(int128_t& value) { getUInt128((uint128_t&)value); }$/;"	f	class:android::MtpDataPacket
+getInt16	MtpDataPacket.h	/^    inline int16_t      getInt16() { return (int16_t)getUInt16(); }$/;"	f	class:android::MtpDataPacket
+getInt32	MtpDataPacket.h	/^    inline int32_t      getInt32() { return (int32_t)getUInt32(); }$/;"	f	class:android::MtpDataPacket
+getInt64	MtpDataPacket.h	/^    inline int64_t      getInt64() { return (int64_t)getUInt64(); }$/;"	f	class:android::MtpDataPacket
+getInt8	MtpDataPacket.h	/^    inline int8_t       getInt8() { return (int8_t)mBuffer[mOffset++]; }$/;"	f	class:android::MtpDataPacket
+getMaxCapacity	MtpStorage.cpp	/^uint64_t MtpStorage::getMaxCapacity() {$/;"	f	class:android::MtpStorage
+getMaxFileSize	MtpStorage.h	/^    inline uint64_t         getMaxFileSize() const { return mMaxFileSize; }$/;"	f	class:android::MtpStorage
+getObjectHandles	MtpDevice.cpp	/^MtpObjectHandleList* MtpDevice::getObjectHandles(MtpStorageID storageID,$/;"	f	class:android::MtpDevice
+getObjectInfo	MtpDevice.cpp	/^MtpObjectInfo* MtpDevice::getObjectInfo(MtpObjectHandle handle) {$/;"	f	class:android::MtpDevice
+getObjectPropCodeName	MtpDebug.cpp	/^const char* MtpDebug::getObjectPropCodeName(MtpPropertyCode code) {$/;"	f	class:android::MtpDebug
+getObjectPropDesc	MtpDevice.cpp	/^MtpProperty* MtpDevice::getObjectPropDesc(MtpObjectProperty code, MtpObjectFormat format) {$/;"	f	class:android::MtpDevice
+getObjectPropsSupported	MtpDevice.cpp	/^MtpObjectPropertyList* MtpDevice::getObjectPropsSupported(MtpObjectFormat format) {$/;"	f	class:android::MtpDevice
+getOperationCode	MtpRequestPacket.h	/^    inline MtpOperationCode    getOperationCode() const { return getContainerCode(); }$/;"	f	class:android::MtpRequestPacket
+getOperationCodeName	MtpDebug.cpp	/^const char* MtpDebug::getOperationCodeName(MtpOperationCode code) {$/;"	f	class:android::MtpDebug
+getParameter	MtpPacket.cpp	/^uint32_t MtpPacket::getParameter(int index) const {$/;"	f	class:android::MtpPacket
+getParent	MtpDevice.cpp	/^MtpObjectHandle MtpDevice::getParent(MtpObjectHandle handle) {$/;"	f	class:android::MtpDevice
+getPath	MtpStorage.h	/^    inline const char*      getPath() const { return (const char *)mFilePath; }$/;"	f	class:android::MtpStorage
+getPropertyCode	MtpProperty.h	/^    inline MtpPropertyCode getPropertyCode() const { return mCode; }$/;"	f	class:android::MtpProperty
+getResponseCode	MtpResponsePacket.h	/^    inline MtpResponseCode      getResponseCode() const { return getContainerCode(); }$/;"	f	class:android::MtpResponsePacket
+getStorage	MtpServer.cpp	/^MtpStorage* MtpServer::getStorage(MtpStorageID id) {$/;"	f	class:android::MtpServer
+getStorageID	MtpDevice.cpp	/^MtpObjectHandle MtpDevice::getStorageID(MtpObjectHandle handle) {$/;"	f	class:android::MtpDevice
+getStorageID	MtpStorage.h	/^    inline MtpStorageID     getStorageID() const { return mStorageID; }$/;"	f	class:android::MtpStorage
+getStorageIDs	MtpDevice.cpp	/^MtpStorageIDList* MtpDevice::getStorageIDs() {$/;"	f	class:android::MtpDevice
+getStorageInfo	MtpDevice.cpp	/^MtpStorageInfo* MtpDevice::getStorageInfo(MtpStorageID storageID) {$/;"	f	class:android::MtpDevice
+getString	MtpDataPacket.cpp	/^void MtpDataPacket::getString(MtpStringBuffer& string)$/;"	f	class:android::MtpDataPacket
+getThumbnail	MtpDevice.cpp	/^void* MtpDevice::getThumbnail(MtpObjectHandle handle, int& outLength) {$/;"	f	class:android::MtpDevice
+getTransactionID	MtpPacket.cpp	/^MtpTransactionID MtpPacket::getTransactionID() const {$/;"	f	class:android::MtpPacket
+getType	MtpStorage.cpp	/^int MtpStorage::getType() const {$/;"	f	class:android::MtpStorage
+getUInt128	MtpDataPacket.cpp	/^void MtpDataPacket::getUInt128(uint128_t& value) {$/;"	f	class:android::MtpDataPacket
+getUInt16	MtpDataPacket.cpp	/^uint16_t MtpDataPacket::getUInt16() {$/;"	f	class:android::MtpDataPacket
+getUInt16	MtpPacket.cpp	/^uint16_t MtpPacket::getUInt16(int offset) const {$/;"	f	class:android::MtpPacket
+getUInt32	MtpDataPacket.cpp	/^uint32_t MtpDataPacket::getUInt32() {$/;"	f	class:android::MtpDataPacket
+getUInt32	MtpPacket.cpp	/^uint32_t MtpPacket::getUInt32(int offset) const {$/;"	f	class:android::MtpPacket
+getUInt64	MtpDataPacket.cpp	/^uint64_t MtpDataPacket::getUInt64() {$/;"	f	class:android::MtpDataPacket
+getUInt8	MtpDataPacket.h	/^    inline uint8_t      getUInt8() { return (uint8_t)mBuffer[mOffset++]; }$/;"	f	class:android::MtpDataPacket
+handleRequest	MtpServer.cpp	/^bool MtpServer::handleRequest() {$/;"	f	class:android::MtpServer
+hasData	MtpDataPacket.h	/^    inline bool         hasData() const { return mPacketSize > MTP_CONTAINER_HEADER_SIZE; }$/;"	f	class:android::MtpDataPacket
+hasStorage	MtpServer.cpp	/^bool MtpServer::hasStorage(MtpStorageID id) {$/;"	f	class:android::MtpServer
+hasStorage	MtpServer.h	/^    inline bool         hasStorage() { return mStorages.size() > 0; }$/;"	f	class:android::MtpServer
+i128	MtpProperty.h	/^        int128_t        i128;$/;"	m	union:android::MtpPropertyValue::__anon1
+i16	MtpProperty.h	/^        int16_t         i16;$/;"	m	union:android::MtpPropertyValue::__anon1
+i32	MtpProperty.h	/^        int32_t         i32;$/;"	m	union:android::MtpPropertyValue::__anon1
+i64	MtpProperty.h	/^        int64_t         i64;$/;"	m	union:android::MtpPropertyValue::__anon1
+i8	MtpProperty.h	/^        int8_t          i8;$/;"	m	union:android::MtpPropertyValue::__anon1
+initialize	MtpDevice.cpp	/^void MtpDevice::initialize() {$/;"	f	class:android::MtpDevice
+int128_t	MtpTypes.h	/^typedef int32_t int128_t[4];$/;"	t	namespace:android
+isDeviceProperty	MtpProperty.h	/^    inline bool         isDeviceProperty() const {$/;"	f	class:android::MtpProperty
+isRemovable	MtpStorage.h	/^    inline bool             isRemovable() const { return mRemovable; }$/;"	f	class:android::MtpStorage
+kFormDateTime	MtpProperty.h	/^        kFormDateTime = 3,$/;"	e	enum:android::MtpProperty::__anon2
+kFormEnum	MtpProperty.h	/^        kFormEnum = 2,$/;"	e	enum:android::MtpProperty::__anon2
+kFormNone	MtpProperty.h	/^        kFormNone = 0,$/;"	e	enum:android::MtpProperty::__anon2
+kFormRange	MtpProperty.h	/^        kFormRange = 1,$/;"	e	enum:android::MtpProperty::__anon2
+kInvalidObjectHandle	MtpTypes.h	48;"	d
+kSupportedEventCodes	MtpServer.cpp	/^static const MtpEventCode kSupportedEventCodes[] = {$/;"	m	namespace:android	file:
+kSupportedOperationCodes	MtpServer.cpp	/^static const MtpOperationCode kSupportedOperationCodes[] = {$/;"	m	namespace:android	file:
+mAccessCapability	MtpStorageInfo.h	/^    uint16_t            mAccessCapability;$/;"	m	class:android::MtpStorageInfo
+mAllocationIncrement	MtpPacket.h	/^    int                 mAllocationIncrement;$/;"	m	class:android::MtpPacket
+mAssociationDesc	MtpObjectInfo.h	/^    uint32_t            mAssociationDesc;$/;"	m	class:android::MtpObjectInfo
+mAssociationType	MtpObjectInfo.h	/^    uint16_t            mAssociationType;$/;"	m	class:android::MtpObjectInfo
+mBuffer	MtpPacket.h	/^    uint8_t*            mBuffer;$/;"	m	class:android::MtpPacket
+mBuffer	MtpStringBuffer.h	/^    uint8_t         mBuffer[255 * 3 + 1];$/;"	m	class:android::MtpStringBuffer
+mBufferSize	MtpPacket.h	/^    int                 mBufferSize;$/;"	m	class:android::MtpPacket
+mByteCount	MtpStringBuffer.h	/^    int             mByteCount;$/;"	m	class:android::MtpStringBuffer
+mCaptureFormats	MtpDeviceInfo.h	/^    MtpObjectFormatList*    mCaptureFormats;$/;"	m	class:android::MtpDeviceInfo
+mCharCount	MtpStringBuffer.h	/^    int             mCharCount;$/;"	m	class:android::MtpStringBuffer
+mCode	MtpProperty.h	/^    MtpPropertyCode     mCode;$/;"	m	class:android::MtpProperty
+mCompressedSize	MtpObjectInfo.h	/^    uint32_t            mCompressedSize;$/;"	m	class:android::MtpObjectInfo
+mCurrentArrayLength	MtpProperty.h	/^    int                 mCurrentArrayLength;$/;"	m	class:android::MtpProperty
+mCurrentArrayValues	MtpProperty.h	/^    MtpPropertyValue*   mCurrentArrayValues;$/;"	m	class:android::MtpProperty
+mCurrentValue	MtpProperty.h	/^    MtpPropertyValue    mCurrentValue;$/;"	m	class:android::MtpProperty
+mData	MtpDevice.h	/^    MtpDataPacket           mData;$/;"	m	class:android::MtpDevice
+mData	MtpServer.h	/^    MtpDataPacket       mData;$/;"	m	class:android::MtpServer
+mDatabase	MtpServer.h	/^    MtpDatabase*        mDatabase;$/;"	m	class:android::MtpServer
+mDateCreated	MtpObjectInfo.h	/^    time_t              mDateCreated;$/;"	m	class:android::MtpObjectInfo
+mDateModified	MtpObjectInfo.h	/^    time_t              mDateModified;$/;"	m	class:android::MtpObjectInfo
+mDefaultArrayLength	MtpProperty.h	/^    int                 mDefaultArrayLength;$/;"	m	class:android::MtpProperty
+mDefaultArrayValues	MtpProperty.h	/^    MtpPropertyValue*   mDefaultArrayValues;$/;"	m	class:android::MtpProperty
+mDefaultValue	MtpProperty.h	/^    MtpPropertyValue    mDefaultValue;$/;"	m	class:android::MtpProperty
+mDescription	MtpStorage.h	/^    MtpString               mDescription;$/;"	m	class:android::MtpStorage
+mDevice	MtpDevice.h	/^    struct usb_device*      mDevice;$/;"	m	class:android::MtpDevice	typeref:struct:android::MtpDevice::usb_device
+mDeviceInfo	MtpDevice.h	/^    MtpDeviceInfo*          mDeviceInfo;$/;"	m	class:android::MtpDevice
+mDeviceProperties	MtpDevice.h	/^    MtpPropertyList         mDeviceProperties;$/;"	m	class:android::MtpDevice
+mDeviceProperties	MtpDeviceInfo.h	/^    MtpDevicePropertyList*  mDeviceProperties;$/;"	m	class:android::MtpDeviceInfo
+mDirectoryPermission	MtpServer.h	/^    int                 mDirectoryPermission;$/;"	m	class:android::MtpServer
+mEnumLength	MtpProperty.h	/^    int                 mEnumLength;$/;"	m	class:android::MtpProperty
+mEnumValues	MtpProperty.h	/^    MtpPropertyValue*   mEnumValues;$/;"	m	class:android::MtpProperty
+mEvent	MtpServer.h	/^    MtpEventPacket      mEvent;$/;"	m	class:android::MtpServer
+mEvents	MtpDeviceInfo.h	/^    UInt16List*             mEvents;$/;"	m	class:android::MtpDeviceInfo
+mFD	MtpServer.h	/^        int                 mFD;$/;"	m	class:android::MtpServer::ObjectEdit
+mFD	MtpServer.h	/^    int                 mFD;$/;"	m	class:android::MtpServer
+mFileGroup	MtpServer.h	/^    int                 mFileGroup;$/;"	m	class:android::MtpServer
+mFilePath	MtpStorage.h	/^    MtpString               mFilePath;$/;"	m	class:android::MtpStorage
+mFilePermission	MtpServer.h	/^    int                 mFilePermission;$/;"	m	class:android::MtpServer
+mFileSystemType	MtpStorageInfo.h	/^    uint16_t            mFileSystemType;$/;"	m	class:android::MtpStorageInfo
+mFormFlag	MtpProperty.h	/^    uint8_t             mFormFlag;$/;"	m	class:android::MtpProperty
+mFormat	MtpObjectInfo.h	/^    MtpObjectFormat     mFormat;$/;"	m	class:android::MtpObjectInfo
+mFormat	MtpServer.h	/^        MtpObjectFormat     mFormat;$/;"	m	class:android::MtpServer::ObjectEdit
+mFreeSpaceBytes	MtpStorageInfo.h	/^    uint64_t            mFreeSpaceBytes;$/;"	m	class:android::MtpStorageInfo
+mFreeSpaceObjects	MtpStorageInfo.h	/^    uint32_t            mFreeSpaceObjects;$/;"	m	class:android::MtpStorageInfo
+mFunctionalCode	MtpDeviceInfo.h	/^    uint16_t                mFunctionalCode;$/;"	m	class:android::MtpDeviceInfo
+mGroupCode	MtpProperty.h	/^    uint32_t            mGroupCode;$/;"	m	class:android::MtpProperty
+mHandle	MtpObjectInfo.h	/^    MtpObjectHandle     mHandle;$/;"	m	class:android::MtpObjectInfo
+mHandle	MtpServer.h	/^        MtpObjectHandle     mHandle;$/;"	m	class:android::MtpServer::ObjectEdit
+mImagePixDepth	MtpObjectInfo.h	/^    uint32_t            mImagePixDepth;$/;"	m	class:android::MtpObjectInfo
+mImagePixHeight	MtpObjectInfo.h	/^    uint32_t            mImagePixHeight;$/;"	m	class:android::MtpObjectInfo
+mImagePixWidth	MtpObjectInfo.h	/^    uint32_t            mImagePixWidth;$/;"	m	class:android::MtpObjectInfo
+mInterface	MtpDevice.h	/^    int                     mInterface;$/;"	m	class:android::MtpDevice
+mKeywords	MtpObjectInfo.h	/^    char*               mKeywords;$/;"	m	class:android::MtpObjectInfo
+mManufacturer	MtpDeviceInfo.h	/^    char*                   mManufacturer;$/;"	m	class:android::MtpDeviceInfo
+mMaxCapacity	MtpStorage.h	/^    uint64_t                mMaxCapacity;$/;"	m	class:android::MtpStorage
+mMaxCapacity	MtpStorageInfo.h	/^    uint64_t            mMaxCapacity;$/;"	m	class:android::MtpStorageInfo
+mMaxFileSize	MtpStorage.h	/^    uint64_t                mMaxFileSize;$/;"	m	class:android::MtpStorage
+mMaximumValue	MtpProperty.h	/^    MtpPropertyValue    mMaximumValue;$/;"	m	class:android::MtpProperty
+mMinimumValue	MtpProperty.h	/^    MtpPropertyValue    mMinimumValue;$/;"	m	class:android::MtpProperty
+mModel	MtpDeviceInfo.h	/^    char*                   mModel;$/;"	m	class:android::MtpDeviceInfo
+mMutex	MtpDevice.h	/^    Mutex                   mMutex;$/;"	m	class:android::MtpDevice
+mMutex	MtpServer.h	/^    Mutex               mMutex;$/;"	m	class:android::MtpServer
+mName	MtpObjectInfo.h	/^    char*               mName;$/;"	m	class:android::MtpObjectInfo
+mObjectEditList	MtpServer.h	/^    Vector<ObjectEdit*>  mObjectEditList;$/;"	m	class:android::MtpServer
+mOffset	MtpDataPacket.h	/^    int                 mOffset;$/;"	m	class:android::MtpDataPacket
+mOperations	MtpDeviceInfo.h	/^    UInt16List*             mOperations;$/;"	m	class:android::MtpDeviceInfo
+mPacketSize	MtpPacket.h	/^    int                 mPacketSize;$/;"	m	class:android::MtpPacket
+mParent	MtpObjectInfo.h	/^    MtpObjectHandle     mParent;$/;"	m	class:android::MtpObjectInfo
+mPath	MtpServer.h	/^        MtpString           mPath;$/;"	m	class:android::MtpServer::ObjectEdit
+mPlaybackFormats	MtpDeviceInfo.h	/^    MtpObjectFormatList*    mPlaybackFormats;$/;"	m	class:android::MtpDeviceInfo
+mProtectionStatus	MtpObjectInfo.h	/^    uint16_t            mProtectionStatus;$/;"	m	class:android::MtpObjectInfo
+mPtp	MtpServer.h	/^    bool                mPtp;$/;"	m	class:android::MtpServer
+mReceivedResponse	MtpDevice.h	/^    bool                    mReceivedResponse;$/;"	m	class:android::MtpDevice
+mRemovable	MtpStorage.h	/^    bool                    mRemovable;$/;"	m	class:android::MtpStorage
+mRequest	MtpDevice.h	/^    MtpRequestPacket        mRequest;$/;"	m	class:android::MtpDevice
+mRequest	MtpServer.h	/^    MtpRequestPacket    mRequest;$/;"	m	class:android::MtpServer
+mRequestIn1	MtpDevice.h	/^    struct usb_request*     mRequestIn1;$/;"	m	class:android::MtpDevice	typeref:struct:android::MtpDevice::usb_request
+mRequestIn2	MtpDevice.h	/^    struct usb_request*     mRequestIn2;$/;"	m	class:android::MtpDevice	typeref:struct:android::MtpDevice::usb_request
+mRequestIntr	MtpDevice.h	/^    struct usb_request*     mRequestIntr;$/;"	m	class:android::MtpDevice	typeref:struct:android::MtpDevice::usb_request
+mRequestOut	MtpDevice.h	/^    struct usb_request*     mRequestOut;$/;"	m	class:android::MtpDevice	typeref:struct:android::MtpDevice::usb_request
+mReserveSpace	MtpStorage.h	/^    uint64_t                mReserveSpace;$/;"	m	class:android::MtpStorage
+mResponse	MtpDevice.h	/^    MtpResponsePacket       mResponse;$/;"	m	class:android::MtpDevice
+mResponse	MtpServer.h	/^    MtpResponsePacket   mResponse;$/;"	m	class:android::MtpServer
+mSendObjectFilePath	MtpServer.h	/^    MtpString           mSendObjectFilePath;$/;"	m	class:android::MtpServer
+mSendObjectFileSize	MtpServer.h	/^    size_t              mSendObjectFileSize;$/;"	m	class:android::MtpServer
+mSendObjectFormat	MtpServer.h	/^    MtpObjectFormat     mSendObjectFormat;$/;"	m	class:android::MtpServer
+mSendObjectHandle	MtpServer.h	/^    MtpObjectHandle     mSendObjectHandle;$/;"	m	class:android::MtpServer
+mSequenceNumber	MtpObjectInfo.h	/^    uint32_t            mSequenceNumber;$/;"	m	class:android::MtpObjectInfo
+mSerial	MtpDeviceInfo.h	/^    char*                   mSerial;$/;"	m	class:android::MtpDeviceInfo
+mSessionID	MtpDevice.h	/^    MtpSessionID            mSessionID;$/;"	m	class:android::MtpDevice
+mSessionID	MtpServer.h	/^    MtpSessionID        mSessionID;$/;"	m	class:android::MtpServer
+mSessionOpen	MtpServer.h	/^    bool                mSessionOpen;$/;"	m	class:android::MtpServer
+mSize	MtpServer.h	/^        uint64_t            mSize;$/;"	m	class:android::MtpServer::ObjectEdit
+mStandardVersion	MtpDeviceInfo.h	/^    uint16_t                mStandardVersion;$/;"	m	class:android::MtpDeviceInfo
+mStepSize	MtpProperty.h	/^    MtpPropertyValue    mStepSize;$/;"	m	class:android::MtpProperty
+mStorageDescription	MtpStorageInfo.h	/^    char*               mStorageDescription;$/;"	m	class:android::MtpStorageInfo
+mStorageID	MtpObjectInfo.h	/^    MtpStorageID        mStorageID;$/;"	m	class:android::MtpObjectInfo
+mStorageID	MtpStorage.h	/^    MtpStorageID            mStorageID;$/;"	m	class:android::MtpStorage
+mStorageID	MtpStorageInfo.h	/^    MtpStorageID        mStorageID;$/;"	m	class:android::MtpStorageInfo
+mStorageType	MtpStorageInfo.h	/^    uint16_t            mStorageType;$/;"	m	class:android::MtpStorageInfo
+mStorages	MtpServer.h	/^    MtpStorageList      mStorages;$/;"	m	class:android::MtpServer
+mThumbCompressedSize	MtpObjectInfo.h	/^    uint32_t            mThumbCompressedSize;$/;"	m	class:android::MtpObjectInfo
+mThumbFormat	MtpObjectInfo.h	/^    MtpObjectFormat     mThumbFormat;$/;"	m	class:android::MtpObjectInfo
+mThumbPixHeight	MtpObjectInfo.h	/^    uint32_t            mThumbPixHeight;$/;"	m	class:android::MtpObjectInfo
+mThumbPixWidth	MtpObjectInfo.h	/^    uint32_t            mThumbPixWidth;$/;"	m	class:android::MtpObjectInfo
+mTransactionID	MtpDevice.h	/^    MtpTransactionID        mTransactionID;$/;"	m	class:android::MtpDevice
+mType	MtpProperty.h	/^    MtpDataType         mType;$/;"	m	class:android::MtpProperty
+mVendorExtensionDesc	MtpDeviceInfo.h	/^    char*                   mVendorExtensionDesc;$/;"	m	class:android::MtpDeviceInfo
+mVendorExtensionID	MtpDeviceInfo.h	/^    uint32_t                mVendorExtensionID;$/;"	m	class:android::MtpDeviceInfo
+mVendorExtensionVersion	MtpDeviceInfo.h	/^    uint16_t                mVendorExtensionVersion;$/;"	m	class:android::MtpDeviceInfo
+mVersion	MtpDeviceInfo.h	/^    char*                   mVersion;$/;"	m	class:android::MtpDeviceInfo
+mVolumeIdentifier	MtpStorageInfo.h	/^    char*               mVolumeIdentifier;$/;"	m	class:android::MtpStorageInfo
+mWriteable	MtpProperty.h	/^    bool                mWriteable;$/;"	m	class:android::MtpProperty
+name	MtpDebug.cpp	/^    const char* name;$/;"	m	struct:android::CodeEntry	file:
+open	MtpDevice.cpp	/^MtpDevice* MtpDevice::open(const char* deviceName, int fd) {$/;"	f	class:android::MtpDevice
+openSession	MtpDevice.cpp	/^bool MtpDevice::openSession() {$/;"	f	class:android::MtpDevice
+operator const char*	MtpStringBuffer.h	/^	inline operator const char*() const { return (const char *)mBuffer; }$/;"	f	class:android::MtpStringBuffer
+parseDateTime	MtpUtils.cpp	/^bool parseDateTime(const char* dateTime, time_t& outSeconds) {$/;"	f	namespace:android
+print	MtpDevice.cpp	/^void MtpDevice::print() {$/;"	f	class:android::MtpDevice
+print	MtpDeviceInfo.cpp	/^void MtpDeviceInfo::print() {$/;"	f	class:android::MtpDeviceInfo
+print	MtpObjectInfo.cpp	/^void MtpObjectInfo::print() {$/;"	f	class:android::MtpObjectInfo
+print	MtpProperty.cpp	/^void MtpProperty::print() {$/;"	f	class:android::MtpProperty
+print	MtpProperty.cpp	/^void MtpProperty::print(MtpPropertyValue& value, MtpString& buffer) {$/;"	f	class:android::MtpProperty
+print	MtpStorageInfo.cpp	/^void MtpStorageInfo::print() {$/;"	f	class:android::MtpStorageInfo
+putAInt16	MtpDataPacket.cpp	/^void MtpDataPacket::putAInt16(const int16_t* values, int count) {$/;"	f	class:android::MtpDataPacket
+putAInt32	MtpDataPacket.cpp	/^void MtpDataPacket::putAInt32(const int32_t* values, int count) {$/;"	f	class:android::MtpDataPacket
+putAInt64	MtpDataPacket.cpp	/^void MtpDataPacket::putAInt64(const int64_t* values, int count) {$/;"	f	class:android::MtpDataPacket
+putAInt8	MtpDataPacket.cpp	/^void MtpDataPacket::putAInt8(const int8_t* values, int count) {$/;"	f	class:android::MtpDataPacket
+putAUInt16	MtpDataPacket.cpp	/^void MtpDataPacket::putAUInt16(const UInt16List* values) {$/;"	f	class:android::MtpDataPacket
+putAUInt16	MtpDataPacket.cpp	/^void MtpDataPacket::putAUInt16(const uint16_t* values, int count) {$/;"	f	class:android::MtpDataPacket
+putAUInt32	MtpDataPacket.cpp	/^void MtpDataPacket::putAUInt32(const UInt32List* list) {$/;"	f	class:android::MtpDataPacket
+putAUInt32	MtpDataPacket.cpp	/^void MtpDataPacket::putAUInt32(const uint32_t* values, int count) {$/;"	f	class:android::MtpDataPacket
+putAUInt64	MtpDataPacket.cpp	/^void MtpDataPacket::putAUInt64(const uint64_t* values, int count) {$/;"	f	class:android::MtpDataPacket
+putAUInt8	MtpDataPacket.cpp	/^void MtpDataPacket::putAUInt8(const uint8_t* values, int count) {$/;"	f	class:android::MtpDataPacket
+putEmptyArray	MtpDataPacket.h	/^    inline void         putEmptyArray() { putUInt32(0); }$/;"	f	class:android::MtpDataPacket
+putEmptyString	MtpDataPacket.h	/^    inline void         putEmptyString() { putUInt8(0); }$/;"	f	class:android::MtpDataPacket
+putInt128	MtpDataPacket.cpp	/^void MtpDataPacket::putInt128(const int128_t& value) {$/;"	f	class:android::MtpDataPacket
+putInt128	MtpDataPacket.cpp	/^void MtpDataPacket::putInt128(int64_t value) {$/;"	f	class:android::MtpDataPacket
+putInt16	MtpDataPacket.cpp	/^void MtpDataPacket::putInt16(int16_t value) {$/;"	f	class:android::MtpDataPacket
+putInt32	MtpDataPacket.cpp	/^void MtpDataPacket::putInt32(int32_t value) {$/;"	f	class:android::MtpDataPacket
+putInt64	MtpDataPacket.cpp	/^void MtpDataPacket::putInt64(int64_t value) {$/;"	f	class:android::MtpDataPacket
+putInt8	MtpDataPacket.cpp	/^void MtpDataPacket::putInt8(int8_t value) {$/;"	f	class:android::MtpDataPacket
+putString	MtpDataPacket.cpp	/^void MtpDataPacket::putString(const MtpStringBuffer& string) {$/;"	f	class:android::MtpDataPacket
+putString	MtpDataPacket.cpp	/^void MtpDataPacket::putString(const char* s) {$/;"	f	class:android::MtpDataPacket
+putString	MtpDataPacket.cpp	/^void MtpDataPacket::putString(const uint16_t* string) {$/;"	f	class:android::MtpDataPacket
+putUInt128	MtpDataPacket.cpp	/^void MtpDataPacket::putUInt128(const uint128_t& value) {$/;"	f	class:android::MtpDataPacket
+putUInt128	MtpDataPacket.cpp	/^void MtpDataPacket::putUInt128(uint64_t value) {$/;"	f	class:android::MtpDataPacket
+putUInt16	MtpDataPacket.cpp	/^void MtpDataPacket::putUInt16(uint16_t value) {$/;"	f	class:android::MtpDataPacket
+putUInt16	MtpPacket.cpp	/^void MtpPacket::putUInt16(int offset, uint16_t value) {$/;"	f	class:android::MtpPacket
+putUInt32	MtpDataPacket.cpp	/^void MtpDataPacket::putUInt32(uint32_t value) {$/;"	f	class:android::MtpDataPacket
+putUInt32	MtpPacket.cpp	/^void MtpPacket::putUInt32(int offset, uint32_t value) {$/;"	f	class:android::MtpPacket
+putUInt64	MtpDataPacket.cpp	/^void MtpDataPacket::putUInt64(uint64_t value) {$/;"	f	class:android::MtpDataPacket
+putUInt8	MtpDataPacket.cpp	/^void MtpDataPacket::putUInt8(uint8_t value) {$/;"	f	class:android::MtpDataPacket
+read	MtpDataPacket.cpp	/^int MtpDataPacket::read(int fd) {$/;"	f	class:android::MtpDataPacket
+read	MtpDataPacket.cpp	/^int MtpDataPacket::read(struct usb_request *request) {$/;"	f	class:android::MtpDataPacket
+read	MtpDeviceInfo.cpp	/^void MtpDeviceInfo::read(MtpDataPacket& packet) {$/;"	f	class:android::MtpDeviceInfo
+read	MtpEventPacket.cpp	/^int MtpEventPacket::read(struct usb_request *request) {$/;"	f	class:android::MtpEventPacket
+read	MtpObjectInfo.cpp	/^void MtpObjectInfo::read(MtpDataPacket& packet) {$/;"	f	class:android::MtpObjectInfo
+read	MtpProperty.cpp	/^void MtpProperty::read(MtpDataPacket& packet) {$/;"	f	class:android::MtpProperty
+read	MtpRequestPacket.cpp	/^int MtpRequestPacket::read(int fd) {$/;"	f	class:android::MtpRequestPacket
+read	MtpResponsePacket.cpp	/^int MtpResponsePacket::read(struct usb_request *request) {$/;"	f	class:android::MtpResponsePacket
+read	MtpStorageInfo.cpp	/^void MtpStorageInfo::read(MtpDataPacket& packet) {$/;"	f	class:android::MtpStorageInfo
+readArrayValues	MtpProperty.cpp	/^MtpPropertyValue* MtpProperty::readArrayValues(MtpDataPacket& packet, int& length) {$/;"	f	class:android::MtpProperty
+readData	MtpDataPacket.cpp	/^int MtpDataPacket::readData(struct usb_request *request, void* buffer, int length) {$/;"	f	class:android::MtpDataPacket
+readData	MtpDevice.cpp	/^bool MtpDevice::readData() {$/;"	f	class:android::MtpDevice
+readDataAsync	MtpDataPacket.cpp	/^int MtpDataPacket::readDataAsync(struct usb_request *req) {$/;"	f	class:android::MtpDataPacket
+readDataHeader	MtpDataPacket.cpp	/^int MtpDataPacket::readDataHeader(struct usb_request *request) {$/;"	f	class:android::MtpDataPacket
+readDataWait	MtpDataPacket.cpp	/^int MtpDataPacket::readDataWait(struct usb_device *device) {$/;"	f	class:android::MtpDataPacket
+readFromPacket	MtpStringBuffer.cpp	/^void MtpStringBuffer::readFromPacket(MtpDataPacket* packet) {$/;"	f	class:android::MtpStringBuffer
+readObject	MtpDevice.cpp	/^bool MtpDevice::readObject(MtpObjectHandle handle, const char* destPath, int group, int perm) {$/;"	f	class:android::MtpDevice
+readObject	MtpDevice.cpp	/^bool MtpDevice::readObject(MtpObjectHandle handle,$/;"	f	class:android::MtpDevice
+readResponse	MtpDevice.cpp	/^MtpResponseCode MtpDevice::readResponse() {$/;"	f	class:android::MtpDevice
+readValue	MtpProperty.cpp	/^void MtpProperty::readValue(MtpDataPacket& packet, MtpPropertyValue& value) {$/;"	f	class:android::MtpProperty
+removeEditObject	MtpServer.cpp	/^void MtpServer::removeEditObject(MtpObjectHandle handle) {$/;"	f	class:android::MtpServer
+removeStorage	MtpServer.cpp	/^void MtpServer::removeStorage(MtpStorage* storage) {$/;"	f	class:android::MtpServer
+reset	MtpDataPacket.cpp	/^void MtpDataPacket::reset() {$/;"	f	class:android::MtpDataPacket
+reset	MtpPacket.cpp	/^void MtpPacket::reset() {$/;"	f	class:android::MtpPacket
+run	MtpServer.cpp	/^void MtpServer::run() {$/;"	f	class:android::MtpServer
+sDevicePropCodes	MtpDebug.cpp	/^static const CodeEntry sDevicePropCodes[] = {$/;"	m	namespace:android	file:
+sFormatCodes	MtpDebug.cpp	/^static const CodeEntry sFormatCodes[] = {$/;"	m	namespace:android	file:
+sObjectPropCodes	MtpDebug.cpp	/^static const CodeEntry sObjectPropCodes[] = {$/;"	m	namespace:android	file:
+sOperationCodes	MtpDebug.cpp	/^static const CodeEntry sOperationCodes[] = {$/;"	m	namespace:android	file:
+sendData	MtpDevice.cpp	/^bool MtpDevice::sendData() {$/;"	f	class:android::MtpDevice
+sendEvent	MtpServer.cpp	/^void MtpServer::sendEvent(MtpEventCode code, uint32_t param1) {$/;"	f	class:android::MtpServer
+sendObject	MtpDevice.cpp	/^bool MtpDevice::sendObject(MtpObjectInfo* info, int srcFD) {$/;"	f	class:android::MtpDevice
+sendObjectAdded	MtpServer.cpp	/^void MtpServer::sendObjectAdded(MtpObjectHandle handle) {$/;"	f	class:android::MtpServer
+sendObjectInfo	MtpDevice.cpp	/^MtpObjectHandle MtpDevice::sendObjectInfo(MtpObjectInfo* info) {$/;"	f	class:android::MtpDevice
+sendObjectRemoved	MtpServer.cpp	/^void MtpServer::sendObjectRemoved(MtpObjectHandle handle) {$/;"	f	class:android::MtpServer
+sendRequest	MtpDevice.cpp	/^bool MtpDevice::sendRequest(MtpOperationCode operation) {$/;"	f	class:android::MtpDevice
+sendStoreAdded	MtpServer.cpp	/^void MtpServer::sendStoreAdded(MtpStorageID id) {$/;"	f	class:android::MtpServer
+sendStoreRemoved	MtpServer.cpp	/^void MtpServer::sendStoreRemoved(MtpStorageID id) {$/;"	f	class:android::MtpServer
+set	MtpStringBuffer.cpp	/^void MtpStringBuffer::set(const char* src) {$/;"	f	class:android::MtpStringBuffer
+set	MtpStringBuffer.cpp	/^void MtpStringBuffer::set(const uint16_t* src) {$/;"	f	class:android::MtpStringBuffer
+setContainerCode	MtpPacket.cpp	/^void MtpPacket::setContainerCode(uint16_t code) {$/;"	f	class:android::MtpPacket
+setCurrentValue	MtpProperty.cpp	/^void MtpProperty::setCurrentValue(const uint16_t* string) {$/;"	f	class:android::MtpProperty
+setDefaultValue	MtpProperty.cpp	/^void MtpProperty::setDefaultValue(const uint16_t* string) {$/;"	f	class:android::MtpProperty
+setEventCode	MtpEventPacket.h	/^    inline void             setEventCode(MtpEventCode code)$/;"	f	class:android::MtpEventPacket
+setFormDateTime	MtpProperty.cpp	/^void MtpProperty::setFormDateTime() {$/;"	f	class:android::MtpProperty
+setFormEnum	MtpProperty.cpp	/^void MtpProperty::setFormEnum(const int* values, int count) {$/;"	f	class:android::MtpProperty
+setFormRange	MtpProperty.cpp	/^void MtpProperty::setFormRange(int min, int max, int step) {$/;"	f	class:android::MtpProperty
+setOperationCode	MtpDataPacket.cpp	/^void MtpDataPacket::setOperationCode(MtpOperationCode code) {$/;"	f	class:android::MtpDataPacket
+setOperationCode	MtpRequestPacket.h	/^    inline void                setOperationCode(MtpOperationCode code)$/;"	f	class:android::MtpRequestPacket
+setParameter	MtpPacket.cpp	/^void MtpPacket::setParameter(int index, uint32_t value) {$/;"	f	class:android::MtpPacket
+setResponseCode	MtpResponsePacket.h	/^    inline void                 setResponseCode(MtpResponseCode code)$/;"	f	class:android::MtpResponsePacket
+setTransactionID	MtpDataPacket.cpp	/^void MtpDataPacket::setTransactionID(MtpTransactionID id) {$/;"	f	class:android::MtpDataPacket
+setTransactionID	MtpPacket.cpp	/^void MtpPacket::setTransactionID(MtpTransactionID id) {$/;"	f	class:android::MtpPacket
+str	MtpProperty.h	/^    char*               str;$/;"	m	struct:android::MtpPropertyValue
+transfer	MtpPacket.cpp	/^int MtpPacket::transfer(struct usb_request* request) {$/;"	f	class:android::MtpPacket
+u	MtpProperty.h	/^    } u;$/;"	m	struct:android::MtpPropertyValue	typeref:union:android::MtpPropertyValue::__anon1
+u128	MtpProperty.h	/^        uint128_t       u128;$/;"	m	union:android::MtpPropertyValue::__anon1
+u16	MtpProperty.h	/^        uint16_t        u16;$/;"	m	union:android::MtpPropertyValue::__anon1
+u32	MtpProperty.h	/^        uint32_t        u32;$/;"	m	union:android::MtpPropertyValue::__anon1
+u64	MtpProperty.h	/^        uint64_t        u64;$/;"	m	union:android::MtpPropertyValue::__anon1
+u8	MtpProperty.h	/^        uint8_t         u8;$/;"	m	union:android::MtpPropertyValue::__anon1
+uint128_t	MtpTypes.h	/^typedef uint32_t uint128_t[4];$/;"	t	namespace:android
+write	MtpDataPacket.cpp	/^int MtpDataPacket::write(int fd) {$/;"	f	class:android::MtpDataPacket
+write	MtpDataPacket.cpp	/^int MtpDataPacket::write(struct usb_request *request) {$/;"	f	class:android::MtpDataPacket
+write	MtpDataPacket.cpp	/^int MtpDataPacket::write(struct usb_request *request, void* buffer, uint32_t length) {$/;"	f	class:android::MtpDataPacket
+write	MtpEventPacket.cpp	/^int MtpEventPacket::write(int fd) {$/;"	f	class:android::MtpEventPacket
+write	MtpProperty.cpp	/^void MtpProperty::write(MtpDataPacket& packet) {$/;"	f	class:android::MtpProperty
+write	MtpRequestPacket.cpp	/^int MtpRequestPacket::write(struct usb_request *request)$/;"	f	class:android::MtpRequestPacket
+write	MtpResponsePacket.cpp	/^int MtpResponsePacket::write(int fd) {$/;"	f	class:android::MtpResponsePacket
+writeArrayValues	MtpProperty.cpp	/^void MtpProperty::writeArrayValues(MtpDataPacket& packet, MtpPropertyValue* values, int length) {$/;"	f	class:android::MtpProperty
+writeData	MtpDataPacket.cpp	/^int MtpDataPacket::writeData(int fd, void* data, uint32_t length) {$/;"	f	class:android::MtpDataPacket
+writeDataHeader	MtpDataPacket.cpp	/^int MtpDataPacket::writeDataHeader(struct usb_request *request, uint32_t length) {$/;"	f	class:android::MtpDataPacket
+writeDataHeader	MtpDevice.cpp	/^bool MtpDevice::writeDataHeader(MtpOperationCode operation, int dataLength) {$/;"	f	class:android::MtpDevice
+writeToPacket	MtpStringBuffer.cpp	/^void MtpStringBuffer::writeToPacket(MtpDataPacket* packet) const {$/;"	f	class:android::MtpStringBuffer
+writeValue	MtpProperty.cpp	/^void MtpProperty::writeValue(MtpDataPacket& packet, MtpPropertyValue& value) {$/;"	f	class:android::MtpProperty
+~MtpDataPacket	MtpDataPacket.cpp	/^MtpDataPacket::~MtpDataPacket() {$/;"	f	class:android::MtpDataPacket
+~MtpDatabase	MtpDatabase.h	/^    virtual ~MtpDatabase() {}$/;"	f	class:android::MtpDatabase
+~MtpDevice	MtpDevice.cpp	/^MtpDevice::~MtpDevice() {$/;"	f	class:android::MtpDevice
+~MtpDeviceInfo	MtpDeviceInfo.cpp	/^MtpDeviceInfo::~MtpDeviceInfo() {$/;"	f	class:android::MtpDeviceInfo
+~MtpEventPacket	MtpEventPacket.cpp	/^MtpEventPacket::~MtpEventPacket() {$/;"	f	class:android::MtpEventPacket
+~MtpObjectInfo	MtpObjectInfo.cpp	/^MtpObjectInfo::~MtpObjectInfo() {$/;"	f	class:android::MtpObjectInfo
+~MtpPacket	MtpPacket.cpp	/^MtpPacket::~MtpPacket() {$/;"	f	class:android::MtpPacket
+~MtpProperty	MtpProperty.cpp	/^MtpProperty::~MtpProperty() {$/;"	f	class:android::MtpProperty
+~MtpRequestPacket	MtpRequestPacket.cpp	/^MtpRequestPacket::~MtpRequestPacket() {$/;"	f	class:android::MtpRequestPacket
+~MtpResponsePacket	MtpResponsePacket.cpp	/^MtpResponsePacket::~MtpResponsePacket() {$/;"	f	class:android::MtpResponsePacket
+~MtpServer	MtpServer.cpp	/^MtpServer::~MtpServer() {$/;"	f	class:android::MtpServer
+~MtpStorage	MtpStorage.cpp	/^MtpStorage::~MtpStorage() {$/;"	f	class:android::MtpStorage
+~MtpStorageInfo	MtpStorageInfo.cpp	/^MtpStorageInfo::~MtpStorageInfo() {$/;"	f	class:android::MtpStorageInfo
+~MtpStringBuffer	MtpStringBuffer.cpp	/^MtpStringBuffer::~MtpStringBuffer() {$/;"	f	class:android::MtpStringBuffer
+~ObjectEdit	MtpServer.h	/^        virtual ~ObjectEdit() {$/;"	f	class:android::MtpServer::ObjectEdit

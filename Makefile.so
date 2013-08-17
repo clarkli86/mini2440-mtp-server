@@ -1,0 +1,64 @@
+# Clark Li <clark.li86@gmail.com>
+# Jul 2013
+
+PROJECT := mtp
+
+CXX := g++
+CC := gcc
+
+BUILDTYPE := debug
+# Name of the build directory.
+builddir_name ?= build
+# Directory that the build goes into.
+builddir ?= $(builddir_name)/$(BUILDTYPE)
+objdir := $(builddir)/obj
+
+PROGRAM := $(builddir)/lib$(PROJECT).so
+
+C_SOURCE := \
+
+CXX_SOURCE += \
+	src/MtpDataPacket.cpp                     \
+	src/MtpDebug.cpp                          \
+	src/MtpEventPacket.cpp                    \
+	src/MtpObjectInfo.cpp                     \
+	src/MtpPacket.cpp                         \
+	src/MtpProperty.cpp                       \
+	src/MtpRequestPacket.cpp                  \
+	src/MtpResponsePacket.cpp                 \
+	src/MtpServer.cpp                         \
+	src/MtpStringBuffer.cpp                   \
+	src/MtpUtils.cpp                          \
+#	src/MtpDevice.cpp                         \
+	src/MtpDeviceInfo.cpp                     \
+	src/MtpStorage.cpp                        \
+	src/MtpStorageInfo.cpp                    \
+
+INCLUDES += \
+	-Isrc \
+
+OBJECTS := $(addprefix $(objdir)/,$(C_SOURCE:.c=.o)) $(addprefix $(objdir)/,$(CXX_SOURCE:.cpp=.o))
+
+CFLAGS += -Wall -Wextra -g -fPIC -DMTP_DEVICE #-Werror
+LIBFLAGS = -Wl,-soname,lib$(PROJECT).so
+LIBS =
+LDFLAGS := -shared
+all: $(PROGRAM)
+
+#linking
+$(PROGRAM): $(OBJECTS)
+	$(CXX) $(LDFLAGS) $(OUTPUT_OPTION) $^ $(LIBFLAGS) $(LIBS)
+
+#compiling
+$(objdir)/%.o: %.cpp
+	mkdir -p $(dir $@)
+	$(CXX) -c $(INCLUDES) $< -o $@ $(CFLAGS)
+
+$(objdir)/%.o: %.c
+	mkdir -p $(dir $@)
+	$(CC) -c $(INCLUDES) $< -o $@ $(CFLAGS)
+
+clean:
+	$(RM) $(PROGRAM) $(OBJECTS) $(OBJECTS:.o=.d)
+
+.PHONY: all clean run doc
