@@ -332,7 +332,7 @@ static void MtpServer_add_storage(MtpServer * server, int storageId)
     Mutex::Autolock autoLock(sMutex);
 
     if (server) {
-        char * path = "/root/home";
+        char * path = "/home";
         char * description = "Hello MTP";
         long reserveSpace = 1024;
         bool removable = true;
@@ -374,8 +374,8 @@ int main(int argc, char * argv[])
         printf("Failed to create a MTP server\n");
         return -1;
     }
-    MtpServer_run(server);
     MtpServer_add_storage(server, 0x10001);
+    MtpServer_run(server);
 
     terminate_string8();
     return 0;
