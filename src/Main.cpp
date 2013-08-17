@@ -139,13 +139,15 @@ MtpObjectHandleList* MyMtpDatabase::getObjectList(MtpStorageID storageID,
                                     MtpObjectFormat format,
                                     MtpObjectHandle parent) {
     MtpObjectHandleList* list = new MtpObjectHandleList();
+    list->push(0x1);
     return list;
 }
 
 int MyMtpDatabase::getNumObjects(MtpStorageID storageID,
                                 MtpObjectFormat format,
                                 MtpObjectHandle parent) {
-    int result;
+    // TODO: We currently supports only one file without sqlite database
+    int result = 1;
     return result;
 }
 
@@ -206,6 +208,9 @@ MtpResponseCode MyMtpDatabase::getObjectPropertyList(MtpObjectHandle handle,
 
 MtpResponseCode MyMtpDatabase::getObjectInfo(MtpObjectHandle handle,
                                             MtpObjectInfo& info) {
+    info.mName = reinterpret_cast<char*>(malloc(sizeof(char) * (strlen("engineering.log") + 1)));
+    strcpy(info.mName, "engineering.log");
+    info.mFormat = MTP_FORMAT_TEXT;
     return MTP_RESPONSE_OK;
 }
 
@@ -217,6 +222,10 @@ MtpResponseCode MyMtpDatabase::getObjectFilePath(MtpObjectHandle handle,
                                             MtpString& outFilePath,
                                             int64_t& outFileLength,
                                             MtpObjectFormat& outFormat) {
+    outFilePath = "/home/engineering.log";
+    // TODO: THe file contains only 'abcd'
+    outFileLength = 4;
+    outFormat = MTP_FORMAT_TEXT;
     return MTP_RESPONSE_OK;
 }
 

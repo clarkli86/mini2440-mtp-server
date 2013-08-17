@@ -454,12 +454,12 @@ MtpResponseCode MtpServer::doGetDeviceInfo() {
     mData.putAUInt16(playbackFormats);  // Playback Formats
 
     //property_get("ro.product.manufacturer", prop_value, "unknown manufacturer");
-    strcpy(prop_value, "Minelab");
+    strcpy(prop_value, "TODO your own manufacturer");
     string.set(prop_value);
     mData.putString(string);   // Manufacturer
 
     //property_get("ro.product.model", prop_value, "MTP Device");
-    strcpy(prop_value, "Jupiter");
+    strcpy(prop_value, "TODO you own product name");
     string.set(prop_value);
     mData.putString(string);   // Model
     string.set("1.0");

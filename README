@@ -1,0 +1,7 @@
+0. Copy engineering.log to your target's home
+1. Copy mtp.sh to your target's home and run it
+2. Copy build/debug/mtp to your target's home and run it
+3. Run DirectMTP on your host
+   a. Open Device
+   b. Open Session
+   c. Get Object (with ID 1)
